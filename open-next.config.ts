@@ -16,8 +16,8 @@ export default defineCloudflareConfig({
     shouldLazilyUpdateOnCacheHit: true,
   }),
 
-  // Fila de revalidação ISR em memória (suficiente no free tier;
-  // trocar por doQueue/Durable Objects se precisar de revalidação
-  // garantida sob concorrência extrema).
-  queue: "memory",
+  // Revalidação ISR direta (suficiente no free tier; trocar por
+  // doQueue/Durable Objects se precisar de revalidação garantida
+  // sob concorrência extrema).
+  queue: "direct",
 });
