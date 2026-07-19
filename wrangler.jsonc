@@ -1,0 +1,37 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cubingsp-site",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-07-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+
+  // Assets estáticos (HTML pré-renderizado, JS, CSS, imagens) são
+  // servidos GRATUITAMENTE e de forma ILIMITADA — não contam nas
+  // 100.000 requisições/dia do Worker. Esta é a base de toda a
+  // estratégia de proteção de cota.
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+
+  // Bucket R2 para o cache incremental (ISR) do OpenNext.
+  // Criar com: npx wrangler r2 bucket create cubingsp-isr-cache
+  "r2_buckets": [
+    {
+      "binding": "NEXT_INC_CACHE_R2_BUCKET",
+      "bucket_name": "cubingsp-isr-cache"
+    }
+  ],
+
+  // Variáveis públicas (as secrets vão via `wrangler secret put`):
+  //   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+  //   npx wrangler secret put REVALIDATE_SECRET
+  "vars": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://SEU-PROJETO.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sua-anon-key-publica"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}

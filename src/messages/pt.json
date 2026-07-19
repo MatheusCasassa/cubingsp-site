@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "competitions": "Competições",
+    "rankings": "Rankings",
+    "tools": "Ferramentas",
+    "news": "Notícias"
+  },
+  "home": {
+    "heroBadge": "Comunidade oficial de speedcubing de São Paulo",
+    "heroTitle": "A casa do cubo mágico paulista",
+    "heroSubtitle": "Competições, rankings estaduais e uma comunidade que cresce a cada solve. A CubingSP conecta competidores e entusiastas de todo o estado.",
+    "ctaCompetitions": "Ver competições",
+    "ctaAbout": "Conheça a CubingSP",
+    "upcomingCompetitions": "Próximas competições",
+    "noCompetitions": "Nenhuma competição anunciada no momento. Volte em breve!",
+    "latestNews": "Últimas notícias",
+    "noNews": "Em breve, novidades da comunidade por aqui.",
+    "institutionalTitle": "Feita por cubistas, para cubistas",
+    "institutionalText": "A CubingSP é uma associação independente que representa competidores e entusiastas do cubo mágico no estado de São Paulo. Apoiamos a organização de campeonatos oficiais, produzimos ferramentas para delegados e organizadores e promovemos o crescimento da comunidade."
+  },
+  "about": {
+    "title": "Sobre a CubingSP",
+    "intro": "A CubingSP nasceu da união de competidores e organizadores do estado de São Paulo com um objetivo comum: fortalecer o speedcubing paulista.",
+    "historyTitle": "Nossa história",
+    "historyText": "São Paulo concentra uma das comunidades de cubo mágico mais ativas do Brasil, com campeonatos oficiais da WCA realizados regularmente em diversas cidades do estado. A CubingSP surgiu para dar estrutura a essa comunidade: centralizar informações, apoiar organizadores e representar os competidores paulistas.",
+    "missionTitle": "Objetivos",
+    "mission1": "Ampliar o número de competições oficiais no estado de São Paulo.",
+    "mission2": "Manter rankings estaduais e dar visibilidade aos competidores paulistas.",
+    "mission3": "Desenvolver ferramentas abertas para delegados e organizadores.",
+    "mission4": "Aproximar novos cubistas da comunidade competitiva.",
+    "teamTitle": "Quem faz acontecer"
+  },
+  "competitions": {
+    "title": "Próximas competições",
+    "subtitle": "Campeonatos oficiais e encontros da comunidade no estado de São Paulo.",
+    "empty": "Nenhuma competição anunciada no momento. As competições oficiais também são publicadas no site da WCA.",
+    "register": "Inscrições",
+    "details": "Detalhes"
+  },
+  "tools": {
+    "title": "Ferramentas",
+    "subtitle": "Utilitários abertos para delegados, organizadores e competidores.",
+    "comingSoon": "Em breve",
+    "scorecardsTitle": "Scorecards",
+    "scorecardsText": "Geração de scorecards e agrupamentos para competições oficiais, no estilo score-tools da WCA.",
+    "rankingsTitle": "Rankings estaduais",
+    "rankingsText": "Os melhores resultados de São Paulo por modalidade, atualizados a partir dos dados oficiais da WCA.",
+    "delegateTitle": "Painel do delegado",
+    "delegateText": "Conferência de resultados e utilitários de bastidores para delegados da WCA."
+  },
+  "footer": {
+    "tagline": "A comunidade de cubo mágico do estado de São Paulo.",
+    "navigation": "Navegação",
+    "community": "Comunidade",
+    "disclaimer": "A CubingSP é uma organização independente de competidores e entusiastas. Não é afiliada oficialmente à World Cube Association (WCA)."
+  }
+}
