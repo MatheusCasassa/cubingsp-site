@@ -9,6 +9,9 @@ import { getProximasCompeticoes, getUltimasNoticias } from "@/lib/supabase/queri
  */
 export const revalidate = 3600;
 
+// Fotos da comunidade (galeria)
+const GALERIA = [3, 4, 5, 6];
+
 export default async function HomePage({
   params,
 }: {
@@ -25,21 +28,13 @@ export default async function HomePage({
 
   return (
     <main>
-      {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden">
-        {/* Logo oficial sutil ao fundo */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/logo.png"
-          alt=""
-          aria-hidden
-          className="pointer-events-none absolute -right-20 top-1/2 w-[440px] -translate-y-1/2 opacity-[0.06] select-none"
-        />
-        <div className="mx-auto flex min-h-[72dvh] max-w-6xl flex-col items-start justify-center gap-6 px-6">
-          <h1 className="max-w-3xl text-5xl font-black leading-[1.05] tracking-tight md:text-7xl">
+      {/* ── Hero (texto + foto da comunidade) ────────────────────── */}
+      <section className="mx-auto grid min-h-[78dvh] max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-2">
+        <div className="flex flex-col items-start gap-6">
+          <h1 className="max-w-xl text-5xl font-black leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
             {t("heroTitle")}
           </h1>
-          <p className="max-w-xl text-lg leading-relaxed text-fg-muted">
+          <p className="max-w-lg text-lg leading-relaxed text-fg-muted">
             {t("heroSubtitle")}
           </p>
           <div className="mt-2 flex flex-wrap gap-3">
@@ -56,6 +51,25 @@ export default async function HomePage({
               {t("ctaAbout")}
             </Link>
           </div>
+        </div>
+
+        {/* Foto principal da comunidade */}
+        <div className="relative">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/hero.jpg"
+            alt="Comunidade CubingSP reunida em competição"
+            className="aspect-[16/10] w-full rounded-3xl border border-border-subtle object-cover shadow-2xl"
+            fetchPriority="high"
+          />
+          {/* Selo da logo sobreposto */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/logo.png"
+            alt=""
+            aria-hidden
+            className="absolute -bottom-5 -left-5 hidden size-24 drop-shadow-xl sm:block"
+          />
         </div>
       </section>
 
@@ -84,7 +98,7 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* ── Institucional (texto + espaço para foto) ─────────────── */}
+      {/* ── Institucional (texto + foto) ─────────────────────────── */}
       <section className="border-y border-border-subtle bg-bg-elevated/50">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-20 md:grid-cols-2">
           <div className="space-y-5">
@@ -93,18 +107,28 @@ export default async function HomePage({
             </h2>
             <p className="leading-relaxed text-fg-muted">{t("institutionalText")}</p>
           </div>
-          {/* Foto institucional — será adicionada depois */}
-          <ImageSlot aspect="aspect-[4/3]" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/institucional.jpg"
+            alt="Cubistas da CubingSP em campeonato"
+            className="aspect-[4/3] w-full rounded-2xl border border-border-subtle object-cover shadow-xl"
+            loading="lazy"
+          />
         </div>
       </section>
 
-      {/* ── Galeria da comunidade (espaços para fotos) ───────────── */}
+      {/* ── Galeria da comunidade ────────────────────────────────── */}
       <section className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="mb-8 text-3xl font-bold tracking-tight">{t("galleryTitle")}</h2>
-        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
-          <ImageSlot />
-          <ImageSlot />
-          <ImageSlot />
+        <div className="grid gap-5 sm:grid-cols-2">
+          {GALERIA.map((n) => (
+            <ImageSlot
+              key={n}
+              src={`/images/comunidade/${n}.jpg`}
+              alt="Comunidade CubingSP"
+              aspect="aspect-[4/3]"
+            />
+          ))}
         </div>
       </section>
 
