@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing";
 import { LogoOficial, Wordmark } from "./logo";
 import { ThemeToggle } from "./theme-toggle";
 import { LocaleSwitcher } from "./locale-switcher";
+import { UserMenu } from "@/components/auth/user-menu";
 
 const NAV_ITEMS = [
   { href: "/", key: "home" },
@@ -50,6 +51,7 @@ export function Navbar() {
         <div className="flex items-center gap-2.5">
           <LocaleSwitcher />
           <ThemeToggle />
+          <UserMenu />
 
           {/* Hamburger — mobile */}
           <button

@@ -24,6 +24,8 @@ export const routing = defineRouting({
     },
     "/rankings": "/rankings",
     "/rankings/[eventId]": "/rankings/[eventId]",
+    "/entrar": "/entrar",
+    "/perfil": "/perfil",
     "/ferramentas": { pt: "/ferramentas", en: "/tools", es: "/herramientas" },
     "/formularios/[slug]": {
       pt: "/formularios/[slug]",
