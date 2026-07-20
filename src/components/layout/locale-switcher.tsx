@@ -11,7 +11,7 @@ export function LocaleSwitcher() {
   const pathname = usePathname();
   const params = useParams();
 
-  function switchTo(next: "pt" | "en") {
+  function switchTo(next: "pt" | "en" | "es") {
     if (next === locale) return;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     router.replace({ pathname, params: params as any } as any, { locale: next });
@@ -23,7 +23,7 @@ export function LocaleSwitcher() {
       role="group"
       aria-label="Idioma / Language"
     >
-      {(["pt", "en"] as const).map((l) => (
+      {(["pt", "en", "es"] as const).map((l) => (
         <button
           key={l}
           type="button"

@@ -8,7 +8,6 @@
     "news": "Notícias"
   },
   "home": {
-    "heroBadge": "Comunidade oficial de speedcubing de São Paulo",
     "heroTitle": "A casa do cubo mágico paulista",
     "heroSubtitle": "Competições, rankings estaduais e uma comunidade que cresce a cada solve. A CubingSP conecta competidores e entusiastas de todo o estado.",
     "ctaCompetitions": "Ver competições",
@@ -18,7 +17,11 @@
     "latestNews": "Últimas notícias",
     "noNews": "Em breve, novidades da comunidade por aqui.",
     "institutionalTitle": "Feita por cubistas, para cubistas",
-    "institutionalText": "A CubingSP é uma associação independente que representa competidores e entusiastas do cubo mágico no estado de São Paulo. Apoiamos a organização de campeonatos oficiais, produzimos ferramentas para delegados e organizadores e promovemos o crescimento da comunidade."
+    "institutionalText": "A CubingSP é uma associação independente que representa competidores e entusiastas do cubo mágico no estado de São Paulo. Apoiamos a organização de campeonatos oficiais, produzimos ferramentas para delegados e organizadores e promovemos o crescimento da comunidade.",
+    "galleryTitle": "A comunidade"
+  },
+  "common": {
+    "photoSoon": "Foto em breve"
   },
   "about": {
     "title": "Sobre a CubingSP",

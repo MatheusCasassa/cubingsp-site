@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { LogoMark, Wordmark } from "./logo";
+import { LogoOficial, Wordmark } from "./logo";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -11,7 +11,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
         <div className="space-y-3">
           <div className="flex items-center gap-2.5">
-            <LogoMark />
+            <LogoOficial />
             <Wordmark className="text-lg" />
           </div>
           <p className="max-w-xs text-sm leading-relaxed text-fg-muted">{t("tagline")}</p>

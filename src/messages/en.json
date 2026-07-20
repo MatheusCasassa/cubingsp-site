@@ -8,7 +8,6 @@
     "news": "News"
   },
   "home": {
-    "heroBadge": "São Paulo's official speedcubing community",
     "heroTitle": "The home of São Paulo speedcubing",
     "heroSubtitle": "Competitions, state rankings and a community that grows with every solve. CubingSP connects competitors and enthusiasts across the state.",
     "ctaCompetitions": "See competitions",
@@ -18,7 +17,11 @@
     "latestNews": "Latest news",
     "noNews": "Community news coming soon.",
     "institutionalTitle": "By cubers, for cubers",
-    "institutionalText": "CubingSP is an independent association representing speedcubing competitors and enthusiasts in the state of São Paulo, Brazil. We support official championships, build tools for delegates and organizers, and help the community grow."
+    "institutionalText": "CubingSP is an independent association representing speedcubing competitors and enthusiasts in the state of São Paulo, Brazil. We support official championships, build tools for delegates and organizers, and help the community grow.",
+    "galleryTitle": "The community"
+  },
+  "common": {
+    "photoSoon": "Photo coming soon"
   },
   "about": {
     "title": "About CubingSP",

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { LogoMark, Wordmark } from "./logo";
+import { LogoOficial, Wordmark } from "./logo";
 import { ThemeToggle } from "./theme-toggle";
 import { LocaleSwitcher } from "./locale-switcher";
 
@@ -28,7 +28,7 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
         {/* Marca */}
         <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <LogoMark />
+          <LogoOficial />
           <Wordmark className="text-lg" />
         </Link>
 

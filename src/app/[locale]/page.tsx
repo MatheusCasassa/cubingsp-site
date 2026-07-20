@@ -1,6 +1,6 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
-import { LogoMark } from "@/components/layout/logo";
+import { ImageSlot } from "@/components/ui/image-slot";
 import { getProximasCompeticoes, getUltimasNoticias } from "@/lib/supabase/queries";
 
 /**
@@ -27,12 +27,15 @@ export default async function HomePage({
     <main>
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden">
-        {/* Logo sutil ao fundo */}
-        <LogoMark className="pointer-events-none absolute -right-24 top-1/2 size-[480px] -translate-y-1/2 opacity-[0.04]" />
-        <div className="mx-auto flex min-h-[78dvh] max-w-6xl flex-col items-start justify-center gap-6 px-6">
-          <span className="rounded-full border border-border-subtle px-3.5 py-1.5 text-xs font-medium text-fg-muted">
-            {t("heroBadge")}
-          </span>
+        {/* Logo oficial sutil ao fundo */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/logo.png"
+          alt=""
+          aria-hidden
+          className="pointer-events-none absolute -right-20 top-1/2 w-[440px] -translate-y-1/2 opacity-[0.06] select-none"
+        />
+        <div className="mx-auto flex min-h-[72dvh] max-w-6xl flex-col items-start justify-center gap-6 px-6">
           <h1 className="max-w-3xl text-5xl font-black leading-[1.05] tracking-tight md:text-7xl">
             {t("heroTitle")}
           </h1>
@@ -81,18 +84,32 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* ── Institucional ────────────────────────────────────────── */}
+      {/* ── Institucional (texto + espaço para foto) ─────────────── */}
       <section className="border-y border-border-subtle bg-bg-elevated/50">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-20 md:grid-cols-2">
-          <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
-            {t("institutionalTitle")}
-          </h2>
-          <p className="leading-relaxed text-fg-muted">{t("institutionalText")}</p>
+          <div className="space-y-5">
+            <h2 className="text-3xl font-bold leading-tight tracking-tight md:text-4xl">
+              {t("institutionalTitle")}
+            </h2>
+            <p className="leading-relaxed text-fg-muted">{t("institutionalText")}</p>
+          </div>
+          {/* Foto institucional — será adicionada depois */}
+          <ImageSlot aspect="aspect-[4/3]" />
+        </div>
+      </section>
+
+      {/* ── Galeria da comunidade (espaços para fotos) ───────────── */}
+      <section className="mx-auto max-w-6xl px-6 py-20">
+        <h2 className="mb-8 text-3xl font-bold tracking-tight">{t("galleryTitle")}</h2>
+        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+          <ImageSlot />
+          <ImageSlot />
+          <ImageSlot />
         </div>
       </section>
 
       {/* ── Últimas notícias ─────────────────────────────────────── */}
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      <section className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="mb-8 text-3xl font-bold tracking-tight">{t("latestNews")}</h2>
         {noticias.length === 0 ? (
           <p className="rounded-2xl border border-dashed border-border-subtle p-8 text-center text-fg-muted">

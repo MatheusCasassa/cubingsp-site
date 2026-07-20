@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "competitions": "Competiciones",
+    "rankings": "Rankings",
+    "tools": "Herramientas",
+    "news": "Noticias"
+  },
+  "home": {
+    "heroTitle": "La casa del speedcubing paulista",
+    "heroSubtitle": "Competiciones, rankings estatales y una comunidad que crece con cada solve. CubingSP conecta a competidores y entusiastas de todo el estado de São Paulo, Brasil.",
+    "ctaCompetitions": "Ver competiciones",
+    "ctaAbout": "Conoce CubingSP",
+    "upcomingCompetitions": "Próximas competiciones",
+    "noCompetitions": "No hay competiciones anunciadas por el momento. ¡Vuelve pronto!",
+    "latestNews": "Últimas noticias",
+    "noNews": "Muy pronto, novedades de la comunidad por aquí.",
+    "institutionalTitle": "Hecha por cuberos, para cuberos",
+    "institutionalText": "CubingSP es una asociación independiente que representa a competidores y entusiastas del cubo de Rubik en el estado de São Paulo, Brasil. Apoyamos la organización de campeonatos oficiales, creamos herramientas para delegados y organizadores y promovemos el crecimiento de la comunidad.",
+    "galleryTitle": "La comunidad"
+  },
+  "about": {
+    "title": "Sobre CubingSP",
+    "intro": "CubingSP nació de la unión de competidores y organizadores del estado de São Paulo con un objetivo común: fortalecer el speedcubing paulista.",
+    "historyTitle": "Nuestra historia",
+    "historyText": "São Paulo concentra una de las comunidades de speedcubing más activas de Brasil, con campeonatos oficiales de la WCA realizados regularmente en varias ciudades del estado. CubingSP surgió para dar estructura a esa comunidad: centralizar información, apoyar a los organizadores y representar a los competidores paulistas.",
+    "missionTitle": "Objetivos",
+    "mission1": "Ampliar el número de competiciones oficiales en el estado de São Paulo.",
+    "mission2": "Mantener rankings estatales y dar visibilidad a los competidores paulistas.",
+    "mission3": "Desarrollar herramientas abiertas para delegados y organizadores.",
+    "mission4": "Acercar a nuevos cuberos a la comunidad competitiva.",
+    "teamTitle": "Quiénes lo hacen posible"
+  },
+  "competitions": {
+    "title": "Próximas competiciones",
+    "subtitle": "Campeonatos oficiales y encuentros de la comunidad en el estado de São Paulo.",
+    "empty": "No hay competiciones anunciadas por el momento. Las competiciones oficiales también se publican en el sitio de la WCA.",
+    "register": "Inscripciones",
+    "details": "Detalles"
+  },
+  "tools": {
+    "title": "Herramientas",
+    "subtitle": "Utilidades abiertas para delegados, organizadores y competidores.",
+    "comingSoon": "Próximamente",
+    "scorecardsTitle": "Scorecards",
+    "scorecardsText": "Generación de scorecards y agrupaciones para competiciones oficiales, al estilo score-tools de la WCA.",
+    "rankingsTitle": "Rankings estatales",
+    "rankingsText": "Los mejores resultados de São Paulo por modalidad, actualizados a partir de los datos oficiales de la WCA.",
+    "delegateTitle": "Panel del delegado",
+    "delegateText": "Verificación de resultados y utilidades internas para delegados de la WCA."
+  },
+  "common": {
+    "photoSoon": "Foto próximamente"
+  },
+  "footer": {
+    "tagline": "La comunidad de speedcubing del estado de São Paulo, Brasil.",
+    "navigation": "Navegación",
+    "community": "Comunidad",
+    "disclaimer": "CubingSP es una organización independiente de competidores y entusiastas. No está afiliada oficialmente a la World Cube Association (WCA)."
+  }
+}

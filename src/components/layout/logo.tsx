@@ -1,10 +1,22 @@
 import { clsx } from "clsx";
 
 /**
- * Marca simplificada da CubingSP para uso no site.
- * Grade 3×3 inclinada inspirada na logo oficial: blocos escuros e
- * brancos, com o bloco do brasão em vermelho no canto superior.
- * (A logo completa em PNG fica em /public/images/logo.png.)
+ * Logo oficial da CubingSP (arte de artista da comunidade),
+ * com fundo removido — /public/images/logo.png.
+ */
+export function LogoOficial({ className }: { className?: string }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/images/logo.png"
+      alt="CubingSP"
+      className={clsx("size-9 select-none", className)}
+    />
+  );
+}
+
+/**
+ * Marca simplificada em SVG (uso alternativo/ícones).
  */
 export function LogoMark({ className }: { className?: string }) {
   return (
