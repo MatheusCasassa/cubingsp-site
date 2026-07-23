@@ -43,6 +43,7 @@
     "title": "Herramientas",
     "subtitle": "Utilidades abiertas para delegados, organizadores y competidores.",
     "comingSoon": "Próximamente",
+    "available": "Disponible",
     "scorecardsTitle": "Scorecards",
     "scorecardsText": "Generación de scorecards y agrupaciones para competiciones oficiales, al estilo score-tools de la WCA.",
     "rankingsTitle": "Rankings estatales",
@@ -52,6 +53,29 @@
   },
   "common": {
     "photoSoon": "Foto próximamente"
+  },
+  "scorecards": {
+    "title": "Generador de Súmulas",
+    "subtitle": "Genera súmulas oficiales en PDF para tus competiciones WCA — 4 por hoja A4, con la lógica de cortes y límites de cada ronda aplicada automáticamente.",
+    "notConfigured": "Herramienta en configuración. Disponible pronto.",
+    "loginHint": "Entra con tu cuenta WCA. El acceso está restringido a Delegados y Organizadores de competiciones oficiales.",
+    "loginCta": "Entrar con la WCA",
+    "checking": "Verificando tus permisos en la WCA…",
+    "deniedTitle": "Acceso restringido",
+    "deniedText": "{name}, esta herramienta es exclusiva para Delegados y Organizadores de competiciones oficiales de la WCA.",
+    "hello": "¡Hola, {name}!",
+    "delegateBadge": "Delegado WCA",
+    "pickComp": "Tus competiciones",
+    "noComps": "No hay competiciones futuras (o recién terminadas) donde seas Delegado u Organizador.",
+    "loadingWcif": "Cargando datos de {name}…",
+    "wcifError": "No se pudieron cargar los datos de la competición desde la WCA.",
+    "pickRounds": "Selecciona las rondas para generar las súmulas.",
+    "back": "Cambiar competición",
+    "round": "Ronda",
+    "competitorsCount": "{count} competidores",
+    "blankCards": "Súmulas en blanco:",
+    "generateCta": "Generar PDF de súmulas",
+    "generating": "Generando PDF…"
   },
   "auth": {
     "login": "Entrar",

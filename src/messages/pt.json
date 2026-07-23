@@ -23,6 +23,29 @@
   "common": {
     "photoSoon": "Foto em breve"
   },
+  "scorecards": {
+    "title": "Gerador de Súmulas",
+    "subtitle": "Gere súmulas oficiais em PDF para suas competições WCA — 4 por folha A4, com a lógica de cortes e limites de cada rodada aplicada automaticamente.",
+    "notConfigured": "Ferramenta em configuração. Disponível em breve.",
+    "loginHint": "Entre com sua conta WCA. O acesso é restrito a Delegados e Organizadores de competições oficiais.",
+    "loginCta": "Entrar com a WCA",
+    "checking": "Verificando suas permissões na WCA…",
+    "deniedTitle": "Acesso restrito",
+    "deniedText": "{name}, esta ferramenta é exclusiva para Delegados e Organizadores de competições oficiais da WCA.",
+    "hello": "Olá, {name}!",
+    "delegateBadge": "Delegado WCA",
+    "pickComp": "Suas competições",
+    "noComps": "Nenhuma competição futura (ou recém-encerrada) em que você seja Delegado ou Organizador.",
+    "loadingWcif": "Carregando dados de {name}…",
+    "wcifError": "Não foi possível carregar os dados da competição na WCA.",
+    "pickRounds": "Selecione as rodadas para gerar as súmulas.",
+    "back": "Trocar competição",
+    "round": "Rodada",
+    "competitorsCount": "{count} competidores",
+    "blankCards": "Súmulas em branco:",
+    "generateCta": "Gerar PDF das súmulas",
+    "generating": "Gerando PDF…"
+  },
   "about": {
     "title": "Sobre a CubingSP",
     "intro": "A CubingSP nasceu da união de competidores e organizadores do estado de São Paulo com um objetivo comum: fortalecer o speedcubing paulista.",
@@ -46,6 +69,7 @@
     "title": "Ferramentas",
     "subtitle": "Utilitários abertos para delegados, organizadores e competidores.",
     "comingSoon": "Em breve",
+    "available": "Disponível",
     "scorecardsTitle": "Scorecards",
     "scorecardsText": "Geração de scorecards e agrupamentos para competições oficiais, no estilo score-tools da WCA.",
     "rankingsTitle": "Rankings estaduais",

@@ -27,6 +27,11 @@ export const routing = defineRouting({
     "/entrar": "/entrar",
     "/perfil": "/perfil",
     "/ferramentas": { pt: "/ferramentas", en: "/tools", es: "/herramientas" },
+    "/ferramentas/sumulas": {
+      pt: "/ferramentas/sumulas",
+      en: "/tools/scorecards",
+      es: "/herramientas/sumulas",
+    },
     "/formularios/[slug]": {
       pt: "/formularios/[slug]",
       en: "/forms/[slug]",
