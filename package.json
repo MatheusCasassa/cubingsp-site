@@ -2,7 +2,7 @@
   "name": "cubingsp-site",
   "version": "0.1.0",
   "private": true,
-  "description": "Site oficial da CubingSP — Associação de Cubo Mágico de São Paulo",
+  "description": "Site oficial da CubingSP \u2014 Associa\u00e7\u00e3o de Cubo M\u00e1gico de S\u00e3o Paulo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,7 +21,6 @@
     "next": "^15.3.5",
     "next-intl": "^4.3.0",
     "next-themes": "^0.4.6",
-    "pdf-lib": "^1.17.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwind-merge": "^3.3.0"
@@ -37,7 +36,6 @@
     "postcss": "^8.5.0",
     "supabase": "^2.30.0",
     "tailwindcss": "^4.1.0",
-    "tsx": "^4.23.1",
     "typescript": "^5.8.0",
     "wrangler": "^4.25.0"
   }

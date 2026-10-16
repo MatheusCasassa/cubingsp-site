@@ -7,13 +7,13 @@ import { LogoOficial, Wordmark } from "./logo";
 import { ThemeToggle } from "./theme-toggle";
 import { LocaleSwitcher } from "./locale-switcher";
 import { UserMenu } from "@/components/auth/user-menu";
+import { TOOLS_HUB_URL } from "@/lib/links";
 
 const NAV_ITEMS = [
   { href: "/", key: "home" },
   { href: "/sobre", key: "about" },
   { href: "/competicoes", key: "competitions" },
   { href: "/rankings", key: "rankings" },
-  { href: "/ferramentas", key: "tools" },
 ] as const;
 
 /**
@@ -45,6 +45,15 @@ export function Navbar() {
               </Link>
             </li>
           ))}
+          {/* Ferramentas: hub externo (mesma aba — o hub tem "Voltar para a CubingSP") */}
+          <li>
+            <a
+              href={TOOLS_HUB_URL}
+              className="rounded-lg px-3 py-2 text-sm font-medium text-fg-muted transition hover:bg-bg-elevated hover:text-fg"
+            >
+              {t("tools")}
+            </a>
+          </li>
         </ul>
 
         {/* Controles globais */}
@@ -83,6 +92,15 @@ export function Navbar() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href={TOOLS_HUB_URL}
+                onClick={() => setOpen(false)}
+                className="block rounded-lg px-3 py-2.5 text-sm font-medium text-fg-muted transition hover:bg-bg-elevated hover:text-fg"
+              >
+                {t("tools")}
+              </a>
+            </li>
           </ul>
         </div>
       )}

@@ -27,9 +27,6 @@ export async function getWcaPerson(wcaId: string) {
   return res.json();
 }
 
-// Roadmap (módulo src/modules/delegate-tools):
-// - Sincronizar rankings estaduais a partir do export público da WCA
-//   (job periódico grava em rankings_estaduais via createAdminSupabase).
-// - Ferramentas de delegado no estilo score-tools: geração de scorecards,
-//   conferência de resultados, agrupamento — tudo client-side quando
-//   possível (zero requisições dinâmicas).
+// As ferramentas de delegado (súmulas, grupos, staff) vivem no hub
+// externo de ferramentas (repositório MatheusCasassa/CubingSPTools).
+// Aqui fica só o que o site usa: dados públicos com cache de fetch.

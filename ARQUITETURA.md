@@ -36,7 +36,6 @@ cubingsp-site/
     │       ├── competicoes/[slug]/
     │       ├── noticias/[slug]/      # SSG + ISR on-demand
     │       ├── rankings/[eventId]/
-    │       ├── ferramentas/
     │       └── formularios/[slug]/   # Formulários dinâmicos (futuro)
     │
     ├── components/
@@ -55,15 +54,11 @@ cubingsp-site/
     │   │   └── api.ts          # Fetch cacheado da API da WCA
     │   └── cache/              # Helpers de tags/TTL
     │
-    ├── modules/
-    │   └── delegate-tools/     # Futuro: score-tools, scorecards, agrupamento
-    │                           # Isolado do site — vira rota /ferramentas/*
-    │
     ├── i18n/                   # routing.ts + request.ts (next-intl)
     └── messages/               # pt.json / en.json
 ```
 
-Por que `src/modules/delegate-tools/` separado: as ferramentas de delegado têm ciclo de vida próprio (lógica pesada, dependências específicas, possivelmente auth WCA OAuth). Mantê-las como módulo isolado que só é importado pelas rotas de `/ferramentas` significa que o resto do site não carrega esse peso, e no futuro o módulo pode até virar um pacote/worker separado sem refatorar o site.
+**Ferramentas fora do site:** as ferramentas de delegado (súmulas, grupos, staff, calculadoras) vivem num site próprio, o hub de ferramentas (repositório `MatheusCasassa/CubingSPTools`). O item "Ferramentas" do menu aponta para o hub (`src/lib/links.ts`, configurável por `NEXT_PUBLIC_TOOLS_HUB_URL`) e os links antigos (`/ferramentas`, `/en/tools`, `/es/herramientas` e subpáginas) redirecionam para ele via `redirects` em `next.config.ts`. Assim o site institucional fica leve e as ferramentas têm ciclo de deploy próprio.
 
 ## As três camadas de defesa das cotas
 
@@ -152,5 +147,5 @@ npm run deploy
 
 - **Fase 1 (agora)**: conteúdo institucional + competições + notícias, tudo SSG/ISR.
 - **Fase 2**: rankings estaduais — job (GitHub Actions cron ou Supabase Edge Function) consome o export público da WCA e grava snapshots em `rankings_estaduais`; páginas `/rankings/[eventId]` são ISR de 6h.
-- **Fase 3**: ferramentas de delegado em `src/modules/delegate-tools` — priorizar lógica client-side (geração de scorecards, agrupamento) que roda 100% no navegador: custo de servidor zero.
+- **Fase 3**: ferramentas de delegado — movidas para o hub externo (CubingSPTools): ScoreComps (súmulas), Calcumulative (limite cumulativo/média) e CubeStaff (grupos e staff).
 - **Fase 4**: formulários dinâmicos com submit via Route Handler + rate limiting, e possivelmente auth WCA OAuth para áreas restritas.

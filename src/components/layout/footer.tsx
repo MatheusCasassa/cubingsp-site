@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { LogoOficial, Wordmark } from "./logo";
+import { TOOLS_HUB_URL } from "@/lib/links";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -25,7 +26,7 @@ export function Footer() {
             <li><Link className="text-fg-muted transition hover:text-fg" href="/sobre">{tn("about")}</Link></li>
             <li><Link className="text-fg-muted transition hover:text-fg" href="/competicoes">{tn("competitions")}</Link></li>
             <li><Link className="text-fg-muted transition hover:text-fg" href="/rankings">{tn("rankings")}</Link></li>
-            <li><Link className="text-fg-muted transition hover:text-fg" href="/ferramentas">{tn("tools")}</Link></li>
+            <li><a className="text-fg-muted transition hover:text-fg" href={TOOLS_HUB_URL}>{tn("tools")}</a></li>
           </ul>
         </nav>
 

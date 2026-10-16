@@ -23,29 +23,6 @@
   "common": {
     "photoSoon": "Photo coming soon"
   },
-  "scorecards": {
-    "title": "Scorecard Generator",
-    "subtitle": "Generate official PDF scorecards for your WCA competitions — 4 per A4 sheet, with each round's cutoff and time-limit logic applied automatically.",
-    "notConfigured": "Tool being configured. Available soon.",
-    "loginHint": "Sign in with your WCA account. Access is restricted to Delegates and Organizers of official competitions.",
-    "loginCta": "Sign in with WCA",
-    "checking": "Checking your WCA permissions…",
-    "deniedTitle": "Restricted access",
-    "deniedText": "{name}, this tool is exclusive to Delegates and Organizers of official WCA competitions.",
-    "hello": "Hello, {name}!",
-    "delegateBadge": "WCA Delegate",
-    "pickComp": "Your competitions",
-    "noComps": "No upcoming (or recently finished) competition where you are a Delegate or Organizer.",
-    "loadingWcif": "Loading {name} data…",
-    "wcifError": "Could not load the competition data from the WCA.",
-    "pickRounds": "Select the rounds to generate scorecards for.",
-    "back": "Change competition",
-    "round": "Round",
-    "competitorsCount": "{count} competitors",
-    "blankCards": "Blank scorecards:",
-    "generateCta": "Generate scorecards PDF",
-    "generating": "Generating PDF…"
-  },
   "about": {
     "title": "About CubingSP",
     "intro": "CubingSP was born from the union of competitors and organizers across the state of São Paulo with one goal: strengthening speedcubing in the state.",
@@ -65,17 +42,10 @@
     "register": "Register",
     "details": "Details"
   },
-  "tools": {
-    "title": "Tools",
-    "subtitle": "Open utilities for delegates, organizers and competitors.",
-    "comingSoon": "Coming soon",
-    "available": "Available",
-    "scorecardsTitle": "Scorecards",
-    "scorecardsText": "Scorecard generation and grouping for official competitions, in the style of WCA score-tools.",
-    "rankingsTitle": "State rankings",
-    "rankingsText": "São Paulo's best results per event, updated from official WCA data.",
-    "delegateTitle": "Delegate panel",
-    "delegateText": "Results double-checking and backstage utilities for WCA delegates."
+  "rankings": {
+    "title": "State rankings",
+    "text": "São Paulo's best results per event, updated from official WCA data.",
+    "comingSoon": "Coming soon"
   },
   "auth": {
     "login": "Sign in",
