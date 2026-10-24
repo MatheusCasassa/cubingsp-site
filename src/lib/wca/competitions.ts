@@ -45,12 +45,14 @@ export interface CompetitionItem {
   place: string;
   /** País (ISO2) da sede única; null em competições com várias sedes. */
   country: string | null;
+  /** Estado (UF) da sede única no Brasil, para a bandeira. */
+  uf: string | null;
   /** Só tem a modalidade FM (3x3x3 Menos Movimentos). */
   fmOnly: boolean;
   /** Competição com várias sedes ("Multiple cities"). */
   multiLocation: boolean;
   /** Sedes desta região (só em competições com várias sedes). */
-  venues: { label: string; country: string | null }[];
+  venues: { label: string; country: string | null; uf: string | null }[];
   /** Países desta competição na região (filtro da aba LATAM). */
   countries: string[];
 }
@@ -147,6 +149,7 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
           ...base,
           place: placeOf(c),
           country: c.country_iso2,
+          uf: c.country_iso2 === "BR" ? ufFromWcaCity(c.city) : null,
           venues: [],
           countries: [c.country_iso2],
         };
@@ -163,7 +166,8 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
         ...base,
         place: "",
         country: null,
-        venues: vs.map((v) => ({ label: v.label, country: v.country })),
+        uf: null,
+        venues: vs.map((v) => ({ label: v.label, country: v.country, uf: v.uf })),
         countries: [...new Set(vs.map((v) => v.country).filter(isLatam))],
       });
 

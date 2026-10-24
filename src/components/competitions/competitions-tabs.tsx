@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import type { CompetitionItem } from "@/lib/wca/competitions";
 import { countryName } from "@/lib/format-date";
 import { CompetitionCard, type CompetitionCardLabels } from "./competition-card";
+import { CountryFilter } from "./country-filter";
 
 type Region = "sp" | "brasil" | "latam";
 const REGIONS: Region[] = ["sp", "brasil", "latam"];
@@ -58,9 +59,13 @@ export function CompetitionsTabs({
   const countryOptions = useMemo(
     () =>
       latamCountries
-        .map((iso) => ({ iso, name: countryName(iso, locale) }))
+        .map((iso) => ({
+          iso,
+          name: countryName(iso, locale),
+          count: data.latam.filter((c) => c.countries.includes(iso)).length,
+        }))
         .sort((a, b) => a.name.localeCompare(b.name, locale)),
-    [latamCountries, locale],
+    [latamCountries, locale, data.latam],
   );
 
   return (
@@ -92,21 +97,15 @@ export function CompetitionsTabs({
         </p>
 
         {region === "latam" && (
-          <label className="flex items-center gap-2 text-sm">
-            <span className="font-medium">{labels.country}</span>
-            <select
-              value={country}
-              onChange={(e) => setCountry(e.target.value)}
-              className="rounded-lg border border-border-subtle bg-bg-elevated px-3 py-1.5 text-sm outline-none focus:border-brand"
-            >
-              <option value="">{labels.allCountries}</option>
-              {countryOptions.map((o) => (
-                <option key={o.iso} value={o.iso}>
-                  {o.name}
-                </option>
-              ))}
-            </select>
-          </label>
+          <CountryFilter
+            value={country}
+            onChange={setCountry}
+            options={countryOptions}
+            locale={locale}
+            label={labels.country}
+            allLabel={labels.allCountries}
+            totalCount={data.latam.length}
+          />
         )}
       </div>
 
@@ -118,7 +117,13 @@ export function CompetitionsTabs({
         <ul className="mt-6 grid gap-3">
           {list.map((c) => (
             <li key={`${region}-${c.id}`}>
-              <CompetitionCard c={c} locale={locale} labels={labels.card} showCountry={region === "latam"} />
+              <CompetitionCard
+                c={c}
+                locale={locale}
+                labels={labels.card}
+                showCountry={region === "latam"}
+                flags={region === "brasil" ? "state" : region === "latam" ? "country" : undefined}
+              />
             </li>
           ))}
         </ul>

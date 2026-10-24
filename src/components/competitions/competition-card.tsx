@@ -1,5 +1,6 @@
 import type { CompetitionItem } from "@/lib/wca/competitions";
 import { countryName, dateBadge, formatDateRange } from "@/lib/format-date";
+import { CountryFlag, StateFlag } from "@/components/ui/region-flag";
 
 export interface CompetitionCardLabels {
   fm: string; // "FM"
@@ -13,6 +14,7 @@ export interface CompetitionCardLabels {
  * Cartão de competição (usado na Home e na página de Competições).
  * Sem hooks: funciona em Server e Client Components.
  * `showCountry`: mostra o país (aba LATAM).
+ * `flags`: bandeira do estado (aba Brasil) ou do país (aba LATAM) em cada sede.
  * `compact`: sem o botão lateral (Home, em colunas estreitas).
  */
 export function CompetitionCard({
@@ -21,22 +23,33 @@ export function CompetitionCard({
   labels,
   showCountry = false,
   compact = false,
+  flags,
 }: {
   c: CompetitionItem;
   locale: string;
   labels: CompetitionCardLabels;
   showCountry?: boolean;
   compact?: boolean;
+  flags?: "state" | "country";
 }) {
   const badge = dateBadge(c.startDate, locale);
 
-  const venueText = c.multiLocation
-    ? c.venues
-        .map((v) => (showCountry && v.country ? `${v.label} (${countryName(v.country, locale)})` : v.label))
-        .join(" · ")
-    : showCountry && c.country
-      ? `${c.place}, ${countryName(c.country, locale)}`
-      : c.place;
+  const withCountry = (label: string, country: string | null) =>
+    showCountry && country ? `${label}, ${countryName(country, locale)}` : label;
+
+  // Locais exibidos: as sedes desta região (várias sedes) ou o local único
+  const places = c.multiLocation
+    ? c.venues.map((v) => ({ label: withCountry(v.label, v.country), uf: v.uf, country: v.country }))
+    : c.place
+      ? [{ label: withCountry(c.place, c.country), uf: c.uf, country: c.country }]
+      : [];
+
+  const flagFor = (p: { uf: string | null; country: string | null }) =>
+    flags === "state" && p.uf ? (
+      <StateFlag uf={p.uf} />
+    ) : flags === "country" && p.country ? (
+      <CountryFlag iso={p.country} locale={locale} />
+    ) : null;
 
   return (
     <article className="flex h-full items-start gap-4 rounded-2xl border border-border-subtle bg-bg-elevated p-5 transition hover:border-brand">
@@ -76,10 +89,15 @@ export function CompetitionCard({
           </div>
         )}
 
-        {venueText && (
-          <p className="mt-2 text-sm text-fg-muted">
-            {c.multiLocation && <span className="font-medium text-fg">{labels.venues}: </span>}
-            {venueText}
+        {places.length > 0 && (
+          <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-fg-muted">
+            {c.multiLocation && <span className="font-medium text-fg">{labels.venues}:</span>}
+            {places.map((p) => (
+              <span key={p.label} className="inline-flex items-center gap-1.5">
+                {flagFor(p)}
+                {p.label}
+              </span>
+            ))}
           </p>
         )}
       </div>
