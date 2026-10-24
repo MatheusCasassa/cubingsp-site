@@ -15,8 +15,14 @@ import { NextRequest, NextResponse } from "next/server";
  *   { "tags": ["noticias", "competicoes"] }
  */
 export async function POST(request: NextRequest) {
+  // Sem segredo configurado, o endpoint fica desligado. (Antes, comparar com
+  // `Bearer ${undefined}` aceitava quem mandasse literalmente "Bearer undefined".)
+  const secret = process.env.REVALIDATE_SECRET;
+  if (!secret) {
+    return NextResponse.json({ error: "revalidate desativado" }, { status: 503 });
+  }
   const auth = request.headers.get("authorization");
-  if (auth !== `Bearer ${process.env.REVALIDATE_SECRET}`) {
+  if (auth !== `Bearer ${secret}`) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 

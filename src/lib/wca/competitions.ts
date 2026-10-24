@@ -198,13 +198,22 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
 }
 
 /**
+ * Versão do formato dos dados. SEMPRE incrementar ao mudar os campos de
+ * CompetitionItem/CompetitionsByRegion: o build da Cloudflare restaura o
+ * cache do build anterior ("Restoring from build output cache") e, com a
+ * mesma chave, reaproveitaria dados no formato antigo (foi o que escondeu
+ * as bandeiras dos estados no deploy de 24/10/2026: faltava o campo `uf`).
+ */
+const DATA_VERSION = "v2";
+
+/**
  * Versão cacheada (1h, tag "competicoes-wca"). A data de início entra na
  * chave do cache: na virada do dia, competições passadas saem da lista.
  * Para forçar atualização: POST /api/revalidate { "tags": ["competicoes-wca"] }.
  */
 export async function getCompetitionsByRegion(): Promise<CompetitionsByRegion> {
   const start = todaySaoPaulo();
-  return unstable_cache(() => fetchCompetitionsByRegion(start), ["competicoes-wca", start], {
+  return unstable_cache(() => fetchCompetitionsByRegion(start), ["competicoes-wca", DATA_VERSION, start], {
     revalidate: REVALIDATE_SECONDS,
     tags: [COMPETICOES_TAG],
   })();
