@@ -6,6 +6,7 @@ import {
   ufFromWcaCity,
   type Venue,
 } from "./regions";
+import { spCityFlag } from "./sp-city";
 
 /**
  * Próximas competições oficiais (API pública da WCA), separadas em:
@@ -47,12 +48,14 @@ export interface CompetitionItem {
   country: string | null;
   /** Estado (UF) da sede única no Brasil, para a bandeira. */
   uf: string | null;
+  /** Código IBGE da bandeira do município (sedes no estado de SP), se houver. */
+  cityFlag: string | null;
   /** Só tem a modalidade FM (3x3x3 Menos Movimentos). */
   fmOnly: boolean;
   /** Competição com várias sedes ("Multiple cities"). */
   multiLocation: boolean;
   /** Sedes desta região (só em competições com várias sedes). */
-  venues: { label: string; country: string | null; uf: string | null }[];
+  venues: { label: string; country: string | null; uf: string | null; cityFlag: string | null }[];
   /** Países desta competição na região (filtro da aba LATAM). */
   countries: string[];
 }
@@ -145,15 +148,17 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
       };
 
       if (!multiLocation) {
+        const uf = c.country_iso2 === "BR" ? ufFromWcaCity(c.city) : null;
         const item: CompetitionItem = {
           ...base,
           place: placeOf(c),
           country: c.country_iso2,
-          uf: c.country_iso2 === "BR" ? ufFromWcaCity(c.city) : null,
+          uf,
+          cityFlag: uf === "SP" ? spCityFlag(c.city.split(",")[0]) : null,
           venues: [],
           countries: [c.country_iso2],
         };
-        if (c.country_iso2 === "BR") (ufFromWcaCity(c.city) === "SP" ? sp : br).push(item);
+        if (c.country_iso2 === "BR") (uf === "SP" ? sp : br).push(item);
         else if (isLatam(c.country_iso2)) latam.push(item);
         return;
       }
@@ -167,7 +172,13 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
         place: "",
         country: null,
         uf: null,
-        venues: vs.map((v) => ({ label: v.label, country: v.country, uf: v.uf })),
+        cityFlag: null,
+        venues: vs.map((v) => ({
+          label: v.label,
+          country: v.country,
+          uf: v.uf,
+          cityFlag: v.uf === "SP" ? spCityFlag(v.label.split("/")[0]) : null,
+        })),
         countries: [...new Set(vs.map((v) => v.country).filter(isLatam))],
       });
 
@@ -203,8 +214,9 @@ export async function fetchCompetitionsByRegion(start: string): Promise<Competit
  * cache do build anterior ("Restoring from build output cache") e, com a
  * mesma chave, reaproveitaria dados no formato antigo (foi o que escondeu
  * as bandeiras dos estados no deploy de 24/10/2026: faltava o campo `uf`).
+ * v3: campo `cityFlag` (bandeiras dos municípios de SP).
  */
-const DATA_VERSION = "v2";
+const DATA_VERSION = "v3";
 
 /**
  * Versão cacheada (1h, tag "competicoes-wca"). A data de início entra na

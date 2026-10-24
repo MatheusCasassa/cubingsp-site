@@ -48,3 +48,18 @@ export function CountryFlag({ iso, locale, className }: { iso: string; locale: s
     />
   );
 }
+
+/** Bandeira de um município paulista (arquivo pelo código IBGE). */
+export function CityFlag({ ibge, name, className }: { ibge: string; name: string; className?: string }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/flags/sp/${ibge}.webp`}
+      alt={name}
+      title={name}
+      height={14}
+      loading="lazy"
+      className={clsx(FLAG_CLASS, className)}
+    />
+  );
+}

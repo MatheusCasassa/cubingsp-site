@@ -96,6 +96,7 @@ export default async function HomePage({
                   c={c}
                   locale={locale}
                   compact
+                  flags="city"
                   labels={{
                     fm: tc("fm"),
                     fmTitle: tc("fmTitle"),

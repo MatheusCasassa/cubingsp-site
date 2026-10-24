@@ -1,6 +1,6 @@
 import type { CompetitionItem } from "@/lib/wca/competitions";
 import { countryName, dateBadge, formatDateRange } from "@/lib/format-date";
-import { CountryFlag, StateFlag } from "@/components/ui/region-flag";
+import { CityFlag, CountryFlag, StateFlag } from "@/components/ui/region-flag";
 
 export interface CompetitionCardLabels {
   fm: string; // "FM"
@@ -14,7 +14,8 @@ export interface CompetitionCardLabels {
  * Cartão de competição (usado na Home e na página de Competições).
  * Sem hooks: funciona em Server e Client Components.
  * `showCountry`: mostra o país (aba LATAM).
- * `flags`: bandeira do estado (aba Brasil) ou do país (aba LATAM) em cada sede.
+ * `flags`: bandeira do município (aba São Paulo e Home; sem bandeira, a do
+ * estado), do estado (aba Brasil) ou do país (aba LATAM) em cada sede.
  * `compact`: sem o botão lateral (Home, em colunas estreitas).
  */
 export function CompetitionCard({
@@ -30,7 +31,7 @@ export function CompetitionCard({
   labels: CompetitionCardLabels;
   showCountry?: boolean;
   compact?: boolean;
-  flags?: "state" | "country";
+  flags?: "city" | "state" | "country";
 }) {
   const badge = dateBadge(c.startDate, locale);
 
@@ -39,13 +40,20 @@ export function CompetitionCard({
 
   // Locais exibidos: as sedes desta região (várias sedes) ou o local único
   const places = c.multiLocation
-    ? c.venues.map((v) => ({ label: withCountry(v.label, v.country), uf: v.uf, country: v.country }))
+    ? c.venues.map((v) => ({
+        label: withCountry(v.label, v.country),
+        uf: v.uf,
+        country: v.country,
+        cityFlag: v.cityFlag ?? null,
+      }))
     : c.place
-      ? [{ label: withCountry(c.place, c.country), uf: c.uf, country: c.country }]
+      ? [{ label: withCountry(c.place, c.country), uf: c.uf, country: c.country, cityFlag: c.cityFlag ?? null }]
       : [];
 
-  const flagFor = (p: { uf: string | null; country: string | null }) =>
-    flags === "state" && p.uf ? (
+  const flagFor = (p: { label: string; uf: string | null; country: string | null; cityFlag: string | null }) =>
+    flags === "city" && p.cityFlag ? (
+      <CityFlag ibge={p.cityFlag} name={p.label.split("/")[0]} />
+    ) : (flags === "state" || flags === "city") && p.uf ? (
       <StateFlag uf={p.uf} />
     ) : flags === "country" && p.country ? (
       <CountryFlag iso={p.country} locale={locale} />

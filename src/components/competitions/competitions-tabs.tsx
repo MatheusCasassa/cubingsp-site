@@ -122,7 +122,7 @@ export function CompetitionsTabs({
                 locale={locale}
                 labels={labels.card}
                 showCountry={region === "latam"}
-                flags={region === "brasil" ? "state" : region === "latam" ? "country" : undefined}
+                flags={region === "brasil" ? "state" : region === "latam" ? "country" : "city"}
               />
             </li>
           ))}
