@@ -37,7 +37,12 @@ export function AuthForm() {
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) setMsg({ type: "error", text: error.message });
-      else router.push("/perfil");
+      else {
+        // refresh: se o formulário já estiver em /perfil (Next 16 serve o
+        // login nesse endereço para quem chega deslogado), recarrega com a sessão.
+        router.push("/perfil");
+        router.refresh();
+      }
     }
     setLoading(false);
   }

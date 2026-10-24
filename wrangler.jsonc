@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cubingsp-site",
+  "name": "cubingsp",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-01",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
@@ -23,13 +23,13 @@
     }
   ],
 
-  // Variáveis públicas (as secrets vão via `wrangler secret put`):
-  //   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
-  //   npx wrangler secret put REVALIDATE_SECRET
-  "vars": {
-    "NEXT_PUBLIC_SUPABASE_URL": "https://SEU-PROJETO.supabase.co",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sua-anon-key-publica"
-  },
+  // Variáveis (Supabase, WCA, hub de ferramentas…) ficam no painel da
+  // Cloudflare: Worker → Settings → Variables and Secrets. Não coloque
+  // valores de exemplo aqui: o site trataria o Supabase como configurado e
+  // tentaria acessar um endereço inexistente a cada requisição.
+  // keep_vars: o deploy feito a partir do repositório NÃO apaga as
+  // variáveis cadastradas no painel.
+  "keep_vars": true,
 
   "observability": {
     "enabled": true

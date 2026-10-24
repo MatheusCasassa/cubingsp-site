@@ -25,7 +25,10 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "tags obrigatórias" }, { status: 400 });
   }
 
-  for (const tag of tags) revalidateTag(tag);
+  // Next 16: o 2º argumento é o perfil. "max" = stale-while-revalidate:
+  // o próximo visitante ainda recebe a versão em cache e dispara a
+  // regeneração em segundo plano (nenhum visitante espera o banco).
+  for (const tag of tags) revalidateTag(tag, "max");
 
   return NextResponse.json({ revalidated: tags, now: Date.now() });
 }

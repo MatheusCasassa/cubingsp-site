@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
+import { redirect } from "@/i18n/routing";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { ProfileForm } from "@/components/auth/profile-form";
 
@@ -18,12 +18,13 @@ export default async function PerfilPage({
   setRequestLocale(locale);
 
   const supabase = await createSupabaseServerClient();
-  if (!supabase) redirect("/entrar");
+  // Redirect com idioma (next-intl): /perfil → /entrar, /en/perfil → /en/entrar
+  if (!supabase) return redirect({ href: "/entrar", locale });
 
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  if (!user) redirect("/entrar");
+  if (!user) return redirect({ href: "/entrar", locale });
 
   const { data: profile } = await supabase
     .from("profiles")
