@@ -9,16 +9,17 @@
   },
   "home": {
     "heroTitle": "A casa do cubo mágico paulista",
-    "heroSubtitle": "Competições, rankings estaduais e uma comunidade que cresce a cada solve. A CubingSP conecta competidores e entusiastas de todo o estado.",
+    "heroSubtitle": "Bem-vindo ao site da CubingSP. Aqui você vai encontrar informações sobre competições, história, estatísticas e ferramentas que fortalecem nossa comunidade!",
     "ctaCompetitions": "Ver competições",
     "ctaAbout": "Conheça a CubingSP",
     "upcomingCompetitions": "Próximas competições",
-    "noCompetitions": "Nenhuma competição anunciada no momento. Volte em breve!",
+    "noCompetitions": "Nenhuma competição anunciada no estado de São Paulo no momento. Volte em breve!",
     "latestNews": "Últimas notícias",
     "noNews": "Em breve, novidades da comunidade por aqui.",
     "institutionalTitle": "Feita por cubistas, para cubistas",
     "institutionalText": "A CubingSP é uma associação independente que representa competidores e entusiastas do cubo mágico no estado de São Paulo. Apoiamos a organização de campeonatos oficiais, produzimos ferramentas para delegados e organizadores e promovemos o crescimento da comunidade.",
-    "galleryTitle": "A comunidade"
+    "galleryTitle": "A comunidade",
+    "seeAllCompetitions": "Ver todas as {count} competições em São Paulo"
   },
   "common": {
     "photoSoon": "Foto em breve"
@@ -37,10 +38,24 @@
   },
   "competitions": {
     "title": "Próximas competições",
-    "subtitle": "Campeonatos oficiais e encontros da comunidade no estado de São Paulo.",
-    "empty": "Nenhuma competição anunciada no momento. As competições oficiais também são publicadas no site da WCA.",
-    "register": "Inscrições",
-    "details": "Detalhes"
+    "subtitle": "Competições oficiais da WCA. O foco é a comunidade paulista, mas você também encontra as do restante do Brasil e da América Latina.",
+    "tabSp": "São Paulo",
+    "tabBrasil": "Brasil",
+    "tabLatam": "LATAM",
+    "hintSp": "Estado de São Paulo",
+    "hintBrasil": "Demais estados do Brasil",
+    "hintLatam": "Outros países da América Latina",
+    "count": "{count, plural, =0 {nenhuma competição} one {# competição} other {# competições}}",
+    "country": "País",
+    "allCountries": "Todos os países",
+    "empty": "Nenhuma competição anunciada nesta região no momento.",
+    "fm": "FM",
+    "fmTitle": "Somente 3x3x3 Menos Movimentos (FM)",
+    "multi": "Várias sedes",
+    "venues": "Sedes",
+    "viewOnWca": "Ver na WCA",
+    "multiNote": "Competições com várias sedes (comuns no FM) aparecem em cada região onde têm sede, mostrando só as sedes daquela região.",
+    "source": "Dados oficiais da WCA, atualizados a cada hora."
   },
   "rankings": {
     "title": "Rankings estaduais",

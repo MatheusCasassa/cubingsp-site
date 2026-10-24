@@ -9,16 +9,17 @@
   },
   "home": {
     "heroTitle": "La casa del speedcubing paulista",
-    "heroSubtitle": "Competiciones, rankings estatales y una comunidad que crece con cada solve. CubingSP conecta a competidores y entusiastas de todo el estado de São Paulo, Brasil.",
+    "heroSubtitle": "¡Bienvenido al sitio de CubingSP! Aquí encontrarás información sobre competiciones, historia, estadísticas y herramientas que fortalecen nuestra comunidad.",
     "ctaCompetitions": "Ver competiciones",
     "ctaAbout": "Conoce CubingSP",
     "upcomingCompetitions": "Próximas competiciones",
-    "noCompetitions": "No hay competiciones anunciadas por el momento. ¡Vuelve pronto!",
+    "noCompetitions": "No hay competiciones anunciadas en el estado de São Paulo por el momento. ¡Vuelve pronto!",
     "latestNews": "Últimas noticias",
     "noNews": "Muy pronto, novedades de la comunidad por aquí.",
     "institutionalTitle": "Hecha por cuberos, para cuberos",
     "institutionalText": "CubingSP es una asociación independiente que representa a competidores y entusiastas del cubo de Rubik en el estado de São Paulo, Brasil. Apoyamos la organización de campeonatos oficiales, creamos herramientas para delegados y organizadores y promovemos el crecimiento de la comunidad.",
-    "galleryTitle": "La comunidad"
+    "galleryTitle": "La comunidad",
+    "seeAllCompetitions": "Ver las {count} competiciones en São Paulo"
   },
   "about": {
     "title": "Sobre CubingSP",
@@ -34,10 +35,24 @@
   },
   "competitions": {
     "title": "Próximas competiciones",
-    "subtitle": "Campeonatos oficiales y encuentros de la comunidad en el estado de São Paulo.",
-    "empty": "No hay competiciones anunciadas por el momento. Las competiciones oficiales también se publican en el sitio de la WCA.",
-    "register": "Inscripciones",
-    "details": "Detalles"
+    "subtitle": "Competiciones oficiales de la WCA. El foco es la comunidad paulista, pero también encontrarás las del resto de Brasil y de América Latina.",
+    "tabSp": "São Paulo",
+    "tabBrasil": "Brasil",
+    "tabLatam": "LATAM",
+    "hintSp": "Estado de São Paulo",
+    "hintBrasil": "Demás estados de Brasil",
+    "hintLatam": "Otros países de América Latina",
+    "count": "{count, plural, =0 {ninguna competición} one {# competición} other {# competiciones}}",
+    "country": "País",
+    "allCountries": "Todos los países",
+    "empty": "No hay competiciones anunciadas en esta región por el momento.",
+    "fm": "FM",
+    "fmTitle": "Solo 3x3x3 Menos Movimientos (FM)",
+    "multi": "Varias sedes",
+    "venues": "Sedes",
+    "viewOnWca": "Ver en la WCA",
+    "multiNote": "Las competiciones con varias sedes (comunes en FM) aparecen en cada región donde tienen sede, mostrando solo las sedes de esa región.",
+    "source": "Datos oficiales de la WCA, actualizados cada hora."
   },
   "rankings": {
     "title": "Rankings estatales",

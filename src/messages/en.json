@@ -9,16 +9,17 @@
   },
   "home": {
     "heroTitle": "The home of São Paulo speedcubing",
-    "heroSubtitle": "Competitions, state rankings and a community that grows with every solve. CubingSP connects competitors and enthusiasts across the state.",
+    "heroSubtitle": "Welcome to the CubingSP website. Here you will find information about competitions, history, statistics and tools that strengthen our community!",
     "ctaCompetitions": "See competitions",
     "ctaAbout": "About CubingSP",
     "upcomingCompetitions": "Upcoming competitions",
-    "noCompetitions": "No competitions announced right now. Check back soon!",
+    "noCompetitions": "No competitions announced in the state of São Paulo right now. Check back soon!",
     "latestNews": "Latest news",
     "noNews": "Community news coming soon.",
     "institutionalTitle": "By cubers, for cubers",
     "institutionalText": "CubingSP is an independent association representing speedcubing competitors and enthusiasts in the state of São Paulo, Brazil. We support official championships, build tools for delegates and organizers, and help the community grow.",
-    "galleryTitle": "The community"
+    "galleryTitle": "The community",
+    "seeAllCompetitions": "See all {count} competitions in São Paulo"
   },
   "common": {
     "photoSoon": "Photo coming soon"
@@ -37,10 +38,24 @@
   },
   "competitions": {
     "title": "Upcoming competitions",
-    "subtitle": "Official championships and community meetups in the state of São Paulo.",
-    "empty": "No competitions announced right now. Official competitions are also published on the WCA website.",
-    "register": "Register",
-    "details": "Details"
+    "subtitle": "Official WCA competitions. Our focus is the São Paulo community, but you can also find those in the rest of Brazil and Latin America.",
+    "tabSp": "São Paulo",
+    "tabBrasil": "Brazil",
+    "tabLatam": "LATAM",
+    "hintSp": "State of São Paulo",
+    "hintBrasil": "Other Brazilian states",
+    "hintLatam": "Other Latin American countries",
+    "count": "{count, plural, =0 {no competitions} one {# competition} other {# competitions}}",
+    "country": "Country",
+    "allCountries": "All countries",
+    "empty": "No competitions announced in this region right now.",
+    "fm": "FM",
+    "fmTitle": "3x3x3 Fewest Moves (FM) only",
+    "multi": "Multiple venues",
+    "venues": "Venues",
+    "viewOnWca": "View on WCA",
+    "multiNote": "Multi-venue competitions (common in FM) appear in every region where they have a venue, showing only that region's venues.",
+    "source": "Official WCA data, updated every hour."
   },
   "rankings": {
     "title": "State rankings",

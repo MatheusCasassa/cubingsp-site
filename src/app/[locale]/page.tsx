@@ -1,7 +1,9 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { ImageSlot } from "@/components/ui/image-slot";
-import { getProximasCompeticoes, getUltimasNoticias } from "@/lib/supabase/queries";
+import { getUltimasNoticias } from "@/lib/supabase/queries";
+import { getCompetitionsByRegion } from "@/lib/wca/competitions";
+import { CompetitionCard } from "@/components/competitions/competition-card";
 
 /**
  * HOME — ISR de 1h: gerada uma vez, servida da borda para todos.
@@ -21,10 +23,14 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   const t = await getTranslations("home");
+  const tc = await getTranslations("competitions");
   const [competicoes, noticias] = await Promise.all([
-    getProximasCompeticoes(),
+    getCompetitionsByRegion(),
     getUltimasNoticias(3),
   ]);
+  // Resumo da Home: só o estado de São Paulo, as 3 próximas
+  const proximasSp = competicoes.sp.slice(0, 3);
+  const totalSp = competicoes.sp.length;
 
   return (
     <main>
@@ -64,39 +70,53 @@ export default async function HomePage({
             className="aspect-[4/3] w-full rounded-3xl border border-border-subtle object-cover shadow-2xl sm:aspect-[2/1]"
             fetchPriority="high"
           />
-          {/* Selo da logo sobreposto (versão oficial com fundo azul) */}
+          {/* Selo redondo da logo (fundo azul, cubo ampliado como no avatar do Instagram) */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/brand/cubingsp-logo-fundo-azul.svg"
+            src="/brand/cubingsp-selo-redondo.svg"
             alt=""
             aria-hidden
-            className="absolute -bottom-6 left-6 hidden size-20 rounded-2xl shadow-xl ring-4 ring-bg sm:block"
+            className="absolute -bottom-8 left-6 hidden size-24 rounded-full shadow-xl ring-4 ring-bg sm:block md:size-28"
           />
         </div>
       </section>
 
-      {/* ── Próximas competições ─────────────────────────────────── */}
+      {/* ── Próximas competições (estado de SP, 3 próximas) ──────── */}
       <section className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="mb-8 text-3xl font-bold tracking-tight">{t("upcomingCompetitions")}</h2>
-        {competicoes.length === 0 ? (
+        {proximasSp.length === 0 ? (
           <p className="rounded-2xl border border-dashed border-border-subtle p-8 text-center text-fg-muted">
             {t("noCompetitions")}
           </p>
         ) : (
-          <ul className="grid gap-5 md:grid-cols-3">
-            {competicoes.slice(0, 6).map((c) => (
+          <ul className="grid gap-4 lg:grid-cols-3">
+            {proximasSp.map((c) => (
               <li key={c.id}>
-                <article className="group h-full rounded-2xl border border-border-subtle bg-bg-elevated p-6 transition hover:border-brand">
-                  <h3 className="font-semibold">
-                    {locale === "en" && c.titulo_en ? c.titulo_en : c.titulo}
-                  </h3>
-                  <p className="mt-1.5 font-mono text-sm text-fg-muted">
-                    {c.cidade} · {c.data_inicio}
-                  </p>
-                </article>
+                <CompetitionCard
+                  c={c}
+                  locale={locale}
+                  compact
+                  labels={{
+                    fm: tc("fm"),
+                    fmTitle: tc("fmTitle"),
+                    multi: tc("multi"),
+                    venues: tc("venues"),
+                    viewOnWca: tc("viewOnWca"),
+                  }}
+                />
               </li>
             ))}
           </ul>
+        )}
+        {totalSp > 3 && (
+          <div className="mt-6">
+            <Link
+              href="/competicoes"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-border-subtle px-4 py-2.5 text-sm font-semibold transition hover:border-brand"
+            >
+              {t("seeAllCompetitions", { count: totalSp })} →
+            </Link>
+          </div>
         )}
       </section>
 
