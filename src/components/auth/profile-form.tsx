@@ -6,6 +6,12 @@ import { useRouter } from "@/i18n/routing";
 import { getBrowserSupabase } from "@/lib/supabase/browser";
 import { GoogleIcon, FacebookIcon, AppleIcon, WcaIcon } from "./provider-icons";
 
+/** Caminho do avatar no Storage; o carimbo de hora evita a versão em cache. */
+function avatarPath(userId: string, fileName: string): string {
+  const ext = fileName.split(".").pop();
+  return `${userId}/avatar_${Date.now()}.${ext}`;
+}
+
 type Props = {
   userId: string;
   email: string;
@@ -59,8 +65,7 @@ export function ProfileForm(props: Props) {
     if (!file || !supabase) return;
     setUploading(true);
     setMsg(null);
-    const ext = file.name.split(".").pop();
-    const path = `${props.userId}/avatar_${Date.now()}.${ext}`;
+    const path = avatarPath(props.userId, file.name);
     const { error: upErr } = await supabase.storage
       .from("avatars")
       .upload(path, file, { upsert: true });
@@ -224,6 +229,8 @@ export function ProfileForm(props: Props) {
             {props.wcaId ? (
               <span className="text-xs font-semibold text-emerald-500">{t("linked")}</span>
             ) : (
+              // Rota de API (redireciona para a WCA): precisa de navegação completa, não <Link>.
+              // eslint-disable-next-line @next/next/no-html-link-for-pages
               <a
                 href="/api/auth/wca/start"
                 className="rounded-lg border border-border-subtle px-3 py-1.5 text-xs font-semibold transition hover:border-brand"

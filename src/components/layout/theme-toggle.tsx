@@ -1,7 +1,9 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+const noopSubscribe = () => () => {};
 
 /**
  * Alternância Claro/Escuro — obrigatória no menu.
@@ -9,9 +11,8 @@ import { useEffect, useState } from "react";
  */
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
+  // false no servidor e na hidratação, true depois (sem setState em efeito)
+  const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
 
   if (!mounted) {
     return <span className="size-9 rounded-full border border-border-subtle" aria-hidden />;

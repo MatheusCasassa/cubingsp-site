@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import type { CompetitionItem } from "@/lib/wca/competitions";
 import { countryName } from "@/lib/format-date";
@@ -9,6 +9,15 @@ import { CountryFilter } from "./country-filter";
 
 type Region = "sp" | "brasil" | "latam";
 const REGIONS: Region[] = ["sp", "brasil", "latam"];
+
+function subscribeHash(cb: () => void) {
+  window.addEventListener("hashchange", cb);
+  return () => window.removeEventListener("hashchange", cb);
+}
+function regionFromHash(): Region {
+  const h = window.location.hash.replace("#", "") as Region;
+  return REGIONS.includes(h) ? h : "sp";
+}
 
 export interface CompetitionsTabsLabels {
   tabs: Record<Region, string>;
@@ -36,17 +45,14 @@ export function CompetitionsTabs({
   labels: CompetitionsTabsLabels;
 }) {
   const t = useTranslations("competitions");
-  const [region, setRegion] = useState<Region>("sp");
+  // Aba do #hash (no servidor, "sp"); um clique numa aba tem prioridade
+  const hashRegion = useSyncExternalStore(subscribeHash, regionFromHash, () => "sp" as Region);
+  const [picked, setPicked] = useState<Region | null>(null);
+  const region = picked ?? hashRegion;
   const [country, setCountry] = useState<string>("");
 
-  // Aba inicial a partir do #hash
-  useEffect(() => {
-    const h = window.location.hash.replace("#", "") as Region;
-    if (REGIONS.includes(h)) setRegion(h);
-  }, []);
-
   function select(r: Region) {
-    setRegion(r);
+    setPicked(r);
     history.replaceState(null, "", `#${r}`);
   }
 

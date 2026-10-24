@@ -42,6 +42,8 @@ export function SocialButtons({ next = "/perfil" }: { next?: string }) {
       </button>
       {/* WCA: vínculo pós-login (v1). Leva ao início do fluxo, que pede
           login caso necessário e depois vincula. */}
+      {/* Rota de API: navegação completa, não <Link>. */}
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
       <a href="/api/auth/wca/start" className={base}>
         <WcaIcon /> {t("continueWith", { provider: "WCA" })}
       </a>

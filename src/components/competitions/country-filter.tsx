@@ -37,15 +37,19 @@ export function CountryFilter({
   const items = [{ iso: "", name: allLabel, count: totalCount }, ...options];
   const selected = items.find((o) => o.iso === value) ?? items[0];
 
+  // Abre a lista já com o item escolhido em destaque
+  function openList() {
+    setActive(Math.max(0, items.findIndex((o) => o.iso === value)));
+    setOpen(true);
+  }
+
   useEffect(() => {
     if (!open) return;
-    setActive(Math.max(0, items.findIndex((o) => o.iso === value)));
     const onClick = (e: MouseEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
     };
     document.addEventListener("mousedown", onClick);
     return () => document.removeEventListener("mousedown", onClick);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
 
   function choose(iso: string) {
@@ -57,7 +61,7 @@ export function CountryFilter({
     if (e.key === "Escape") return setOpen(false);
     if (!open && (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ")) {
       e.preventDefault();
-      return setOpen(true);
+      return openList();
     }
     if (!open) return;
     if (e.key === "ArrowDown") {
@@ -79,7 +83,7 @@ export function CountryFilter({
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => (open ? setOpen(false) : openList())}
         className="flex min-w-48 items-center gap-2 rounded-lg border border-border-subtle bg-bg-elevated px-3 py-1.5 text-left transition hover:border-brand"
       >
         {selected.iso ? <CountryFlag iso={selected.iso} locale={locale} /> : null}

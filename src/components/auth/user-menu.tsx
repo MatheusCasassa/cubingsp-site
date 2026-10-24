@@ -17,15 +17,13 @@ export function UserMenu() {
   const router = useRouter();
   const supabase = getBrowserSupabase();
   const [user, setUser] = useState<User | null>(null);
-  const [ready, setReady] = useState(false);
+  // Sem Supabase configurado já está "pronto" (mostra o botão Entrar)
+  const [ready, setReady] = useState(!supabase);
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!supabase) {
-      setReady(true);
-      return;
-    }
+    if (!supabase) return;
     supabase.auth.getUser().then(({ data }) => {
       setUser(data.user);
       setReady(true);
