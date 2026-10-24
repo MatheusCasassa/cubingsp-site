@@ -114,7 +114,7 @@ export function AuthForm() {
               setMode(mode === "login" ? "signup" : "login");
               setMsg(null);
             }}
-            className="font-semibold text-brand hover:underline"
+            className="font-semibold text-link hover:underline"
           >
             {mode === "login" ? t("signupCta") : t("loginCta")}
           </button>

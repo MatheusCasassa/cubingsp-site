@@ -4,44 +4,53 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* ═══════════════════════════════════════════════════════════════════
-   Paleta CubingSP — extraída da logo oficial
-   Azul royal do fundo, preto fosco dos blocos, branco das peças,
-   vermelho/amarelo do brasão (uso pontual, sóbrio).
+   Marca CubingSP — logo "cubo CSP" (out/2026)
+   Três cores da logo: vermelho do C, azul do P, preto do S.
+   Neutros (preto fosco/branco) dominam; azul e vermelho são acentos.
+   Mesma paleta usada no Instagram (ver guia de identidade visual).
    ═══════════════════════════════════════════════════════════════════ */
 @theme {
-  /* Azul royal (fundo da logo) */
-  --color-brand-300: #8fa3f5;
-  --color-brand-400: #5c77ee;
-  --color-brand-500: #3b5bea;
-  --color-brand-600: #2b4bdb;
-  --color-brand-700: #2340b8;
-  --color-brand-800: #1d3391;
+  /* Cores exatas da logo — usar só na marca (logo, wordmark) */
+  --color-logo-red: #e60000;
+  --color-logo-blue: #1242b6;
+  --color-logo-black: #0a0908;
 
-  /* Preto fosco dos blocos do cubo */
+  /* Escala do azul da marca (700 = azul exato da logo) */
+  --color-brand-300: #a3b8f0;
+  --color-brand-400: #6b8ce6;
+  --color-brand-500: #3d6fe6;
+  --color-brand-600: #1f55d1;
+  --color-brand-700: #1242b6;
+  --color-brand-800: #0e3590;
+  --color-brand-900: #0b2a70;
+
+  /* Preto fosco (fundos do tema escuro) */
   --color-ink-950: #0b0c10;
   --color-ink-900: #101218;
   --color-ink-800: #161923;
   --color-ink-700: #1f2330;
   --color-ink-600: #2a2f40;
 
-  /* Brasão: vermelho e amarelo (acentos raros e sóbrios) */
-  --color-accent-red: #c81e3c;
-  --color-accent-red-soft: #e04a63;
-  --color-accent-yellow: #f5c518;
+  /* Vermelho do C: ações destrutivas e destaques pontuais */
+  --color-accent-red: #e60000;
 
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  /* Tomorrow: fonte do wordmark e dos títulos (site e Instagram) */
+  --font-display: var(--font-tomorrow), var(--font-geist-sans), ui-sans-serif, sans-serif;
 }
 
 /* ── Tokens semânticos (mudam com o tema) ─────────────────────────── */
 :root {
   --bg: #fafafb;
   --bg-elevated: #ffffff;
-  --fg: #0b0c10;
+  --fg: #0a0908;
   --fg-muted: #5a6072;
   --border: #e4e6ec;
-  --brand: var(--color-brand-600);
+  --brand: var(--color-brand-700); /* azul exato da logo sobre fundo claro */
   --brand-fg: #ffffff;
+  --link: var(--color-brand-700);
+  --danger: #d10000;
 }
 
 .dark {
@@ -50,12 +59,14 @@
   --fg: #f4f5f8;
   --fg-muted: #9aa1b5;
   --border: #232838;
-  --brand: var(--color-brand-500);
+  --brand: var(--color-brand-500); /* azul mais claro: legível no fundo escuro */
   --brand-fg: #ffffff;
+  --link: var(--color-brand-400); /* texto em azul: contraste ≥ 5.5:1 */
+  --danger: #ff5c5c;
 }
 
 /* Expor tokens semânticos como utilitários Tailwind
-   (ex: bg-bg, text-fg, border-border-subtle, bg-brand) */
+   (ex: bg-bg, text-fg, border-border-subtle, bg-brand, text-danger) */
 @theme inline {
   --color-bg: var(--bg);
   --color-bg-elevated: var(--bg-elevated);
@@ -64,6 +75,10 @@
   --color-border-subtle: var(--border);
   --color-brand: var(--brand);
   --color-brand-fg: var(--brand-fg);
+  --color-link: var(--link);
+  --color-danger: var(--danger);
+  /* compatibilidade com componentes existentes */
+  --color-accent-red-soft: var(--danger);
 }
 
 /* ── Base ─────────────────────────────────────────────────────────── */
@@ -81,6 +96,12 @@ body {
   background-color: var(--bg);
   color: var(--fg);
   transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* Títulos na fonte da marca */
+h1,
+h2 {
+  font-family: var(--font-display);
 }
 
 ::selection {

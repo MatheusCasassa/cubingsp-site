@@ -28,16 +28,17 @@ export default async function HomePage({
 
   return (
     <main>
-      {/* ── Hero (texto + foto da comunidade) ────────────────────── */}
-      <section className="mx-auto grid min-h-[78dvh] max-w-6xl items-center gap-10 px-6 py-16 lg:grid-cols-2">
-        <div className="flex flex-col items-start gap-6">
-          <h1 className="max-w-xl text-5xl font-black leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
+      {/* ── Hero (título + foto panorâmica da comunidade) ────────── */}
+      <section className="mx-auto max-w-6xl px-6 pt-12 pb-16 md:pt-16">
+        <div className="grid items-end gap-6 lg:grid-cols-[1.25fr_1fr] lg:gap-12">
+          <h1 className="text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl md:text-6xl">
             {t("heroTitle")}
           </h1>
-          <p className="max-w-lg text-lg leading-relaxed text-fg-muted">
+          <div className="flex flex-col items-start gap-5">
+          <p className="text-lg leading-relaxed text-fg-muted">
             {t("heroSubtitle")}
           </p>
-          <div className="mt-2 flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3">
             <Link
               href="/competicoes"
               className="rounded-xl bg-brand px-5 py-3 text-sm font-semibold text-brand-fg transition hover:opacity-90"
@@ -51,24 +52,25 @@ export default async function HomePage({
               {t("ctaAbout")}
             </Link>
           </div>
+          </div>
         </div>
 
-        {/* Foto principal da comunidade */}
-        <div className="relative">
+        {/* Foto principal: Cuber Brasil Sumaré 2026 (panorâmica, largura total) */}
+        <div className="relative mt-10 md:mt-12">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/hero.jpg"
-            alt="Comunidade CubingSP reunida em competição"
-            className="aspect-[16/10] w-full rounded-3xl border border-border-subtle object-cover shadow-2xl"
+            alt="Competidores reunidos no palco do Cuber Brasil Sumaré 2026"
+            className="aspect-[4/3] w-full rounded-3xl border border-border-subtle object-cover shadow-2xl sm:aspect-[2/1]"
             fetchPriority="high"
           />
-          {/* Selo da logo sobreposto */}
+          {/* Selo da logo sobreposto (versão oficial com fundo azul) */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/logo.png"
+            src="/brand/cubingsp-logo-fundo-azul.svg"
             alt=""
             aria-hidden
-            className="absolute -bottom-5 -left-5 hidden size-24 drop-shadow-xl sm:block"
+            className="absolute -bottom-6 left-6 hidden size-20 rounded-2xl shadow-xl ring-4 ring-bg sm:block"
           />
         </div>
       </section>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Tomorrow } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -12,6 +12,12 @@ import "../globals.css";
 // Geist: open source (Google Fonts), moderna, UTF-8 completo.
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
+// Tomorrow (OFL): fonte da marca — wordmark e títulos, também no Instagram.
+const tomorrow = Tomorrow({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-tomorrow",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -42,7 +48,7 @@ export default async function LocaleLayout({
 
   return (
     // suppressHydrationWarning: next-themes ajusta a classe no <html>
-    <html lang={locale} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang={locale} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${tomorrow.variable}`}>
       <body className="min-h-dvh font-sans antialiased">
         <ThemeProvider>
           <NextIntlClientProvider>

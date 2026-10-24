@@ -59,7 +59,7 @@ export function UserMenu() {
     return (
       <Link
         href="/entrar"
-        className="rounded-full bg-brand px-4 py-1.5 text-sm font-semibold text-brand-fg transition hover:opacity-90"
+        className="whitespace-nowrap rounded-full bg-brand px-4 py-1.5 text-sm font-semibold text-brand-fg transition hover:opacity-90"
       >
         {t("login")}
       </Link>

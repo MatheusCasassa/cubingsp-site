@@ -88,7 +88,7 @@ export function LocaleSwitcher() {
                   <Flag />
                   <span>{label}</span>
                   {active && (
-                    <svg className="ml-auto text-brand" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                    <svg className="ml-auto text-link" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
                   )}
