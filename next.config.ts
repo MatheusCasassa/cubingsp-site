@@ -7,9 +7,11 @@ initOpenNextCloudflareForDev();
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
-// Hub externo de ferramentas (mesmo valor usado no menu: src/lib/links.ts).
-const TOOLS_HUB_URL =
-  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://cubingspferramentas.mcasassa.workers.dev/";
+// Hub externo de ferramentas (mesma regra de src/lib/links.ts):
+// PT na raiz, EN em /en, ES em /es.
+const TOOLS_HUB_URL = (
+  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://cubingspferramentas.mcasassa.workers.dev/"
+).replace(/\/?$/, "/");
 
 const nextConfig: NextConfig = {
   // IMPORTANTE (arquitetura de cache):
@@ -38,8 +40,18 @@ const nextConfig: NextConfig = {
     { source: "/tools/:path*", destination: TOOLS_HUB_URL, permanent: false },
     { source: "/herramientas/:path*", destination: TOOLS_HUB_URL, permanent: false },
     {
-      source: "/:locale(pt|en|es)/:section(ferramentas|tools|herramientas)/:path*",
+      source: "/pt/:section(ferramentas|tools|herramientas)/:path*",
       destination: TOOLS_HUB_URL,
+      permanent: false,
+    },
+    {
+      source: "/en/:section(ferramentas|tools|herramientas)/:path*",
+      destination: `${TOOLS_HUB_URL}en`,
+      permanent: false,
+    },
+    {
+      source: "/es/:section(ferramentas|tools|herramientas)/:path*",
+      destination: `${TOOLS_HUB_URL}es`,
       permanent: false,
     },
   ],
