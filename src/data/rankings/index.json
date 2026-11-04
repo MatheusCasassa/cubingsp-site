@@ -1,0 +1,3885 @@
+{
+ "version": "459beb7a896f",
+ "updatedAt": "2026-11-04",
+ "firstYear": 2007,
+ "currentYear": 2026,
+ "years": [
+  {
+   "year": 2007,
+   "competitions": 1,
+   "competitors": 30
+  },
+  {
+   "year": 2009,
+   "competitions": 2,
+   "competitors": 75
+  },
+  {
+   "year": 2010,
+   "competitions": 2,
+   "competitors": 92
+  },
+  {
+   "year": 2011,
+   "competitions": 1,
+   "competitors": 120
+  },
+  {
+   "year": 2012,
+   "competitions": 3,
+   "competitors": 203
+  },
+  {
+   "year": 2013,
+   "competitions": 9,
+   "competitors": 325
+  },
+  {
+   "year": 2014,
+   "competitions": 9,
+   "competitors": 406
+  },
+  {
+   "year": 2015,
+   "competitions": 11,
+   "competitors": 782
+  },
+  {
+   "year": 2016,
+   "competitions": 9,
+   "competitors": 468
+  },
+  {
+   "year": 2017,
+   "competitions": 14,
+   "competitors": 524
+  },
+  {
+   "year": 2018,
+   "competitions": 16,
+   "competitors": 646
+  },
+  {
+   "year": 2019,
+   "competitions": 18,
+   "competitors": 579
+  },
+  {
+   "year": 2022,
+   "competitions": 12,
+   "competitors": 338
+  },
+  {
+   "year": 2023,
+   "competitions": 18,
+   "competitors": 401
+  },
+  {
+   "year": 2024,
+   "competitions": 30,
+   "competitors": 455
+  },
+  {
+   "year": 2025,
+   "competitions": 26,
+   "competitors": 457
+  },
+  {
+   "year": 2026,
+   "competitions": 25,
+   "competitors": 506
+  }
+ ],
+ "champions": {
+  "overall": [
+   {
+    "year": 2007,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2007GUIM01",
+      "name": "Pedro Santos Guimarães",
+      "points": 43,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2009,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2007GUIM01",
+      "name": "Pedro Santos Guimarães",
+      "points": 226.77,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2010,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2007GUIM01",
+      "name": "Pedro Santos Guimarães",
+      "points": 203.27,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2011,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2009BARB01",
+      "name": "Gabriel Dechichi Barbar",
+      "points": 162.93,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2012,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2009BARB01",
+      "name": "Gabriel Dechichi Barbar",
+      "points": 527.79,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2013,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2009BARB01",
+      "name": "Gabriel Dechichi Barbar",
+      "points": 872.48,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2014,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2011LIMA01",
+      "name": "Allyson Dias de Lima",
+      "points": 699.46,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+     }
+    ]
+   },
+   {
+    "year": 2015,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2009ZEMD01",
+      "name": "Feliks Zemdegs",
+      "points": 1006.36,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1694083136_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2016,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2013GOYA01",
+      "name": "Henry Hideki Goya",
+      "points": 645.34,
+      "avatar": null
+     }
+    ]
+   },
+   {
+    "year": 2017,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2015CECC01",
+      "name": "Vicenzo Guerino Cecchini",
+      "points": 936.62,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2018,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2015CECC01",
+      "name": "Vicenzo Guerino Cecchini",
+      "points": 1322.03,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2019,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2015CECC01",
+      "name": "Vicenzo Guerino Cecchini",
+      "points": 1098.45,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+     }
+    ]
+   },
+   {
+    "year": 2022,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2016SATO01",
+      "name": "Caio Hideaki Sato",
+      "points": 750.16,
+      "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+     }
+    ]
+   },
+   {
+    "year": 2023,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2016SATO01",
+      "name": "Caio Hideaki Sato",
+      "points": 807.5,
+      "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+     }
+    ]
+   },
+   {
+    "year": 2024,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2016SATO01",
+      "name": "Caio Hideaki Sato",
+      "points": 1131.55,
+      "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+     }
+    ]
+   },
+   {
+    "year": 2025,
+    "partial": false,
+    "champions": [
+     {
+      "wcaId": "2016SATO01",
+      "name": "Caio Hideaki Sato",
+      "points": 1563.49,
+      "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+     }
+    ]
+   },
+   {
+    "year": 2026,
+    "partial": true,
+    "champions": [
+     {
+      "wcaId": "2016SATO01",
+      "name": "Caio Hideaki Sato",
+      "points": 1688.7,
+      "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+     }
+    ]
+   }
+  ],
+  "byEvent": {
+   "222": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 20,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 24.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009DINI01",
+       "name": "Felipe de Carvalho Diniz",
+       "points": 25.7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009DINI01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 107,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 139.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CRIC01",
+       "name": "Bruno Galati Paladino Cricelli",
+       "points": 177.48,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013GOYA01",
+       "name": "Henry Hideki Goya",
+       "points": 206.52,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015VERA02",
+       "name": "Diego Boasso Vera",
+       "points": 119.69,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015VERA02/1563194982_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 173.32,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 246.65,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 192.43,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 94.97,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2019FUJI09",
+       "name": "Tiago Akihiro Fujita",
+       "points": 136.58,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2019FUJI09/1696717010_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 199.83,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 210.67,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 198,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "333": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 27,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 69.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 63.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 89,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 231,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 384,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOAR01",
+       "name": "Israel Machado Soares",
+       "points": 261.87,
+       "avatar": "https://avatars.worldcubeassociation.org/qcvc0wdiimiqotl61ye2gp6lx1x3"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013GOYA01",
+       "name": "Henry Hideki Goya",
+       "points": 338.1,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013GOYA01",
+       "name": "Henry Hideki Goya",
+       "points": 329.03,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 374.74,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 568.8,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 410.53,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 385.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 328.92,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 389.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 593.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 590,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "444": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 16.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 13.2,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 19,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 48.83,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 90.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013OLIV01",
+       "name": "Fabiano Pinheiro de Oliveira",
+       "points": 107.75,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013OLIV01/1441150551_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012ROQU01",
+       "name": "Pedro Roque",
+       "points": 177.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015VERA02",
+       "name": "Diego Boasso Vera",
+       "points": 67.12,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015VERA02/1563194982_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 92.48,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 54.05,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015SILV55",
+       "name": "Antonio Gabriel Freitas da Silva",
+       "points": 70.2,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015SILV55/1477789139_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 51.17,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 80.67,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 64.67,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 103.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 144,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "555": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 2,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 11.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 8.25,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 28,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 42,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013OLIV01",
+       "name": "Fabiano Pinheiro de Oliveira",
+       "points": 38.92,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013OLIV01/1441150551_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012ROQU01",
+       "name": "Pedro Roque",
+       "points": 115.3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015VERA02",
+       "name": "Diego Boasso Vera",
+       "points": 26.9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015VERA02/1563194982_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 47.08,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 27.62,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MATT05",
+       "name": "Enzo Mattos",
+       "points": 41,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 16.83,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 19.35,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 58.77,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 62.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 76.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "666": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009KOBA04",
+       "name": "Rodrigo Kenji Asato Kobayashi",
+       "points": 3.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009KOBA04",
+       "name": "Rodrigo Kenji Asato Kobayashi",
+       "points": 4,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011MONT01",
+       "name": "Eric Fernandes Monteiro",
+       "points": 11.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011MONT01/1441150545_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 16,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CAMP03",
+       "name": "Gabriel Pereira Campanha",
+       "points": 11.42,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009HAYS01",
+       "name": "Kevin Hays",
+       "points": 42,
+       "avatar": "https://avatars.worldcubeassociation.org/0iak73213j5z3tj0du0mukacuphb"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MARB01",
+       "name": "Marjorie Nunes",
+       "points": 9.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MARB01/1505100264_thumb.JPG"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 14,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015TELL01",
+       "name": "Pedro Alejandro Condo Tellez",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015TELL01/1700892461_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MATT05",
+       "name": "Enzo Mattos",
+       "points": 33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 19.07,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022SASA03",
+       "name": "Pedro Paulo Lima Sasaki",
+       "points": 73.33,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 28.68,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 46.32,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "777": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009KOBA04",
+       "name": "Rodrigo Kenji Asato Kobayashi",
+       "points": 4.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 5.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011MONT01",
+       "name": "Eric Fernandes Monteiro",
+       "points": 10.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011MONT01/1441150545_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 14,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014ONOD01",
+       "name": "Yngwie Onodera",
+       "points": 10,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014ONOD01/1471705870_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009ZEMD01",
+       "name": "Feliks Zemdegs",
+       "points": 37.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1694083136_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MARB01",
+       "name": "Marjorie Nunes",
+       "points": 7.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MARB01/1505100264_thumb.JPG"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014SANT31",
+       "name": "Bernardo Zakur Corrêa Santos",
+       "points": 15,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014SANT31/1457183482_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015TELL01",
+       "name": "Pedro Alejandro Condo Tellez",
+       "points": 7.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015TELL01/1700892461_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MATT05",
+       "name": "Enzo Mattos",
+       "points": 32.92,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022SASA03",
+       "name": "Pedro Paulo Lima Sasaki",
+       "points": 10.67,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022SASA03",
+       "name": "Pedro Paulo Lima Sasaki",
+       "points": 18.67,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022SASA03",
+       "name": "Pedro Paulo Lima Sasaki",
+       "points": 64,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022SASA03",
+       "name": "Pedro Paulo Lima Sasaki",
+       "points": 53.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 42.5,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    }
+   ],
+   "333bf": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 17.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 12,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOAR01",
+       "name": "Israel Machado Soares",
+       "points": 9.5,
+       "avatar": "https://avatars.worldcubeassociation.org/qcvc0wdiimiqotl61ye2gp6lx1x3"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 18.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 49.06,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 40.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013TALU01",
+       "name": "Kabyanil Talukdar",
+       "points": 63.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 29,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 46.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 20.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 33.86,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 28.25,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 41.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 24.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 25.67,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 30.02,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    }
+   ],
+   "minx": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007FIDE01",
+       "name": "Willian Fidêncio",
+       "points": 2,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 15,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 17.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009JORG02",
+       "name": "Ronan Felipe Jorge",
+       "points": 12,
+       "avatar": "https://avatars.worldcubeassociation.org/m7krqh6xxz974xzn5l10nket4t6j"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009JORG02",
+       "name": "Ronan Felipe Jorge",
+       "points": 26.5,
+       "avatar": "https://avatars.worldcubeassociation.org/m7krqh6xxz974xzn5l10nket4t6j"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 39.68,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013OLIV01",
+       "name": "Fabiano Pinheiro de Oliveira",
+       "points": 49.43,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013OLIV01/1441150551_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2008ANDE02",
+       "name": "Oscar Roth Andersen",
+       "points": 46,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012PINT01",
+       "name": "Jorge Augusto Siqueira Pinto",
+       "points": 20.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012PINT01/1728813473_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012PINT01",
+       "name": "Jorge Augusto Siqueira Pinto",
+       "points": 30.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012PINT01/1728813473_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 29.31,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 47.83,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 20.83,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      },
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 20.83,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 26.33,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 50,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 87.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 113,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "333ft": [
+    {
+     "year": 2007,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 0.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007BRAU01",
+       "name": "Erica Sumoyama Braune",
+       "points": 2.17,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 3.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 2.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 16.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 45.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CAMP03",
+       "name": "Gabriel Pereira Campanha",
+       "points": 48.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CAMP03",
+       "name": "Gabriel Pereira Campanha",
+       "points": 65,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SILV05",
+       "name": "Gilson Sousa da Silva",
+       "points": 15.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CAMP03",
+       "name": "Gabriel Pereira Campanha",
+       "points": 10.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012CAMP03",
+       "name": "Gabriel Pereira Campanha",
+       "points": 16.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 33.47,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    }
+   ],
+   "333oh": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 32,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 22.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 25,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 86.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 151,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 102.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012ROQU01",
+       "name": "Pedro Roque",
+       "points": 147.84,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CARV06",
+       "name": "Iuri Grangeiro Carvalho",
+       "points": 71.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CARV06",
+       "name": "Iuri Grangeiro Carvalho",
+       "points": 96,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CARV06",
+       "name": "Iuri Grangeiro Carvalho",
+       "points": 128.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CARV06",
+       "name": "Iuri Grangeiro Carvalho",
+       "points": 157.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 75.33,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 60.67,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 74.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 78.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 158.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "pyram": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 14,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 12.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010BUEN01",
+       "name": "Felipe da Cruz Bueno",
+       "points": 13,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010BUEN01",
+       "name": "Felipe da Cruz Bueno",
+       "points": 38,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010BUEN01",
+       "name": "Felipe da Cruz Bueno",
+       "points": 57.83,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013VIDA01",
+       "name": "Tiago Oliveira Vidal",
+       "points": 132.45,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013VIDA01/1613505835_thumb.PNG"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010CANT02",
+       "name": "Antoine Cantin",
+       "points": 89.97,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2010CANT02/1522197280_thumb.JPG"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOBR01",
+       "name": "Alrimar Dias Rocha Sobrinho",
+       "points": 68.69,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011SOBR01/1455760552_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MAIA01",
+       "name": "João Guilherme Barejan Maiale",
+       "points": 144.7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MAIA01/1532450735_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016CARD06",
+       "name": "Felipe Cardim",
+       "points": 168.7,
+       "avatar": "https://avatars.worldcubeassociation.org/knaqe95veijt0tv6c3pjczej3zko"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 122.97,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 44.18,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 94.8,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 84.9,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 155.67,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 127.5,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ],
+   "magic": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CERP02",
+       "name": "Renan Mondini Cerpe",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/e9ujopj7z6uvubh5fn7fllxm3qjc"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009SANT04",
+       "name": "Luiz Felipe Parente Santiago",
+       "points": 8,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009OLIV03",
+       "name": "Juliana Moreno Oliveira",
+       "points": 16,
+       "avatar": null
+      }
+     ]
+    }
+   ],
+   "sq1": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 8.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 5.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2008BUCS01",
+       "name": "Gabriel Bucsan",
+       "points": 6.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2008BUCS01/1462724782_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009ALLE01",
+       "name": "Leandro Vasconcellos Alleoni",
+       "points": 12.83,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ALLE01/1517858493_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009ALLE01",
+       "name": "Leandro Vasconcellos Alleoni",
+       "points": 37.13,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ALLE01/1517858493_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009ALLE01",
+       "name": "Leandro Vasconcellos Alleoni",
+       "points": 37.08,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ALLE01/1517858493_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009ALLE01",
+       "name": "Leandro Vasconcellos Alleoni",
+       "points": 43.66,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ALLE01/1517858493_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 36.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 54,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 69.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 112.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 22.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 46,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 53.17,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 30.33,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 43.17,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    }
+   ],
+   "444bf": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2008CARA01",
+       "name": "Gilberto Caracciolo Morelli",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2008CARA01/1441150539_thumb.jpg"
+      },
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      },
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 0.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 2.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 7.75,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 4.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011FRES01",
+       "name": "Linus Frész",
+       "points": 15,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011FRES01/1530273532_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 3.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012SILV22",
+       "name": "Israel Fraga da Silva",
+       "points": 2.5,
+       "avatar": "https://avatars.worldcubeassociation.org/5x3vgocwxp2gsxh4nry2e5c1kit2"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013HUAN29",
+       "name": "Gianfranco Huanqui",
+       "points": 2,
+       "avatar": "https://avatars.worldcubeassociation.org/5ie4xrrjhdpumo2e2xzbin3c0933"
+      },
+      {
+       "wcaId": "2012SILV22",
+       "name": "Israel Fraga da Silva",
+       "points": 2,
+       "avatar": "https://avatars.worldcubeassociation.org/5x3vgocwxp2gsxh4nry2e5c1kit2"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 8,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 15,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 16.86,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 17.13,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 11.33,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    }
+   ],
+   "333mbo": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 4.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    }
+   ],
+   "333mbf": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 7.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOAR01",
+       "name": "Israel Machado Soares",
+       "points": 6,
+       "avatar": "https://avatars.worldcubeassociation.org/qcvc0wdiimiqotl61ye2gp6lx1x3"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 6.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 20.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 10.67,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009BARB01",
+       "name": "Gabriel Dechichi Barbar",
+       "points": 34,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 14,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 12,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015MATT05",
+       "name": "Enzo Mattos",
+       "points": 6.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 10,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 6.79,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 11,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017VIAN01",
+       "name": "Matheus Casassa",
+       "points": 2.67,
+       "avatar": "https://avatars.worldcubeassociation.org/39yo3g9gzqqioqem16a42n9utxq9"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    }
+   ],
+   "clock": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 2.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009KELL01",
+       "name": "Felipe Keller Ariza",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009KELL01/1498784309_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOBR01",
+       "name": "Alrimar Dias Rocha Sobrinho",
+       "points": 21.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011SOBR01/1455760552_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 17.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009OHRN01",
+       "name": "Laura Ohrndorf",
+       "points": 33.7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009OHRN01/1501490937_thumb.png"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011SOBR01",
+       "name": "Alrimar Dias Rocha Sobrinho",
+       "points": 8,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011SOBR01/1455760552_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010GRAC02",
+       "name": "Fabio Bini Graciose",
+       "points": 7,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2010GRAC02/1441150542_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015GODO01",
+       "name": "Diego Iglesias Godoy",
+       "points": 12,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SANT12",
+       "name": "Renan da Cunha Santos",
+       "points": 41.09,
+       "avatar": "https://avatars.worldcubeassociation.org/gh26h8867q2366nma7met6v4ux2g"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017CALD04",
+       "name": "Roberto Caldas",
+       "points": 26.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017CALD04/1677286342_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022FERN29",
+       "name": "Pedro Lima Fernandes",
+       "points": 65.35,
+       "avatar": "https://avatars.worldcubeassociation.org/4oeetinxbye0jbiu5l7djowha3bu"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022FERN29",
+       "name": "Pedro Lima Fernandes",
+       "points": 178.17,
+       "avatar": "https://avatars.worldcubeassociation.org/4oeetinxbye0jbiu5l7djowha3bu"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2022FERN29",
+       "name": "Pedro Lima Fernandes",
+       "points": 141.5,
+       "avatar": "https://avatars.worldcubeassociation.org/4oeetinxbye0jbiu5l7djowha3bu"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2024SOUS10",
+       "name": "Luiz Fernando Santos de Sousa",
+       "points": 135.17,
+       "avatar": "https://avatars.worldcubeassociation.org/lz2ekpf7e30m2vbmkge72nmsy70l"
+      }
+     ]
+    }
+   ],
+   "333fm": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007ALCA01",
+       "name": "Carlos de Alcântara",
+       "points": 12.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007ALCA01/1723689121_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CERP02",
+       "name": "Renan Mondini Cerpe",
+       "points": 5.7,
+       "avatar": "https://avatars.worldcubeassociation.org/e9ujopj7z6uvubh5fn7fllxm3qjc"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009JORG02",
+       "name": "Ronan Felipe Jorge",
+       "points": 7.5,
+       "avatar": "https://avatars.worldcubeassociation.org/m7krqh6xxz974xzn5l10nket4t6j"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009KELL01",
+       "name": "Felipe Keller Ariza",
+       "points": 10,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009KELL01/1498784309_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 13,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013COST02",
+       "name": "João Pedro Batista Ribeiro Costa",
+       "points": 28,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013COST02/1494015725_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013COST02",
+       "name": "João Pedro Batista Ribeiro Costa",
+       "points": 63,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013COST02/1494015725_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014MARQ02",
+       "name": "Marlon de V. Marques",
+       "points": 16.75,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014MARQ02/1707234969_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 23.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CAMP17",
+       "name": "Alexandre Henrique Afonso Campos",
+       "points": 16.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CAMP17/1529076610_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CAMP17",
+       "name": "Alexandre Henrique Afonso Campos",
+       "points": 28.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CAMP17/1529076610_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010GRAC02",
+       "name": "Fabio Bini Graciose",
+       "points": 6.75,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2010GRAC02/1441150542_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016LIPS01",
+       "name": "Adriano Matoba Lipski",
+       "points": 7.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2016LIPS01/1692145783_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015ONOF01",
+       "name": "Anuar Miguel Abib Onofre",
+       "points": 20,
+       "avatar": "https://avatars.worldcubeassociation.org/kw62dg56fnw45k1ddo6a8liumh15"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 6.5,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      },
+      {
+       "wcaId": "2022HANT01",
+       "name": "Thiago Han",
+       "points": 6.5,
+       "avatar": "https://avatars.worldcubeassociation.org/s30gmqkzcy7e7gksi48t2u2dnqi0"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2022BERN01",
+       "name": "Beatriz Hernandes Bernardes",
+       "points": 13.5,
+       "avatar": "https://avatars.worldcubeassociation.org/ad47348yijlo6j2obcu3yuiibjfn"
+      }
+     ]
+    }
+   ],
+   "mmagic": [
+    {
+     "year": 2009,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 1,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2010,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2007CINO01",
+       "name": "Rafael Werneck Cinoto",
+       "points": 3.17,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007CINO01/1510031177_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2011,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011OLIV03",
+       "name": "Thaynara Santana de Oliveira",
+       "points": 4.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011OLIV03/1509934937_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011JARD01",
+       "name": "Felipe Gregorio De Araujo Jardim",
+       "points": 14.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011JARD01/1691758758_thumb.jpg"
+      }
+     ]
+    }
+   ],
+   "555bf": [
+    {
+     "year": 2012,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 0.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2013,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2010SOUZ01",
+       "name": "Walter Pereira Rodrigues de Souza",
+       "points": 4.5,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 2,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012ARTH01",
+       "name": "Noa Arthurs",
+       "points": 10,
+       "avatar": null
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 2.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
+      },
+      {
+       "wcaId": "2008CARA01",
+       "name": "Gilberto Caracciolo Morelli",
+       "points": 2.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2008CARA01/1441150539_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2012PINT01",
+       "name": "Jorge Augusto Siqueira Pinto",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012PINT01/1728813473_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CAMP17",
+       "name": "Alexandre Henrique Afonso Campos",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CAMP17/1529076610_thumb.jpeg"
+      },
+      {
+       "wcaId": "2015MATT05",
+       "name": "Enzo Mattos",
+       "points": 3,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 3.5,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      },
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 3.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2018GOME29",
+       "name": "Frederico Canal Gomes",
+       "points": 6.33,
+       "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 9.92,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 9.92,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 8.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2017SEMO02",
+       "name": "Marcos Ferreira Semolini",
+       "points": 10,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+      }
+     ]
+    }
+   ],
+   "skewb": [
+    {
+     "year": 2014,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013COST02",
+       "name": "João Pedro Batista Ribeiro Costa",
+       "points": 37,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013COST02/1494015725_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2015,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2014LAFO01",
+       "name": "Anthony Lafourcade",
+       "points": 56.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014LAFO01/1663517766_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2016,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013WANK01",
+       "name": "Key Yu Wan",
+       "points": 25.4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013WANK01/1543974620_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2017,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 87.75,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2018,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2015CECC01",
+       "name": "Vicenzo Guerino Cecchini",
+       "points": 107.97,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
+      }
+     ]
+    },
+    {
+     "year": 2019,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 71.92,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2022,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 40.33,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2013WANK01",
+       "name": "Key Yu Wan",
+       "points": 20,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013WANK01/1543974620_thumb.jpeg"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 55,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "partial": false,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 117.17,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    },
+    {
+     "year": 2026,
+     "partial": true,
+     "champions": [
+      {
+       "wcaId": "2016SATO01",
+       "name": "Caio Hideaki Sato",
+       "points": 87,
+       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

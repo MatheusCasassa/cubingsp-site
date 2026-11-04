@@ -1,0 +1,42 @@
+# Atualiza os dados do Ranking Estadual (scripts/rankings/build-rankings.mjs).
+# Roda toda segunda-feira e também pelo botão "Run workflow" na aba Actions.
+# Só faz commit quando algum dado mudou; o commit dispara o deploy da Cloudflare.
+name: Atualizar ranking estadual
+
+on:
+  schedule:
+    - cron: "17 11 * * 1" # segunda, 08:17 em São Paulo (11:17 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rankings
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Gerar dados (API pública da WCA)
+        run: node scripts/rankings/build-rankings.mjs
+
+      - name: Commit, se mudou
+        run: |
+          if git diff --quiet -- public/data/rankings src/data/rankings; then
+            echo "Sem mudanças nos dados."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/rankings src/data/rankings
+          git commit -m "chore(rankings): atualiza dados do ranking estadual"
+          git push
