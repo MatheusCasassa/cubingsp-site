@@ -10,7 +10,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 // Hub externo de ferramentas (mesma regra de src/lib/links.ts):
 // PT na raiz, EN em /en, ES em /es.
 const TOOLS_HUB_URL = (
-  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://cubingspferramentas.mcasassa.workers.dev/"
+  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://csptools.mcasassa.workers.dev/"
 ).replace(/\/?$/, "/");
 
 const nextConfig: NextConfig = {
