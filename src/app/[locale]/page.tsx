@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { ImageSlot } from "@/components/ui/image-slot";
@@ -10,6 +11,9 @@ import { CompetitionCard } from "@/components/competitions/competition-card";
  * Pico de 50k acessos/dia ⇒ ~24 queries ao Supabase.
  */
 export const revalidate = 3600;
+
+// Título da aba na Home: só "CubingSP" (as outras páginas usam "Página | CubingSP")
+export const metadata: Metadata = { title: { absolute: "CubingSP" } };
 
 // Fotos da comunidade (galeria)
 const GALERIA = [3, 4, 5, 6];
