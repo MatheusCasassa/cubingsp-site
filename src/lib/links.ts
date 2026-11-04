@@ -8,7 +8,7 @@
  * (Os redirects de /ferramentas em next.config.ts seguem a mesma regra.)
  */
 export const TOOLS_HUB_URL = (
-  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://csptools.mcasassa.workers.dev/"
+  process.env.NEXT_PUBLIC_TOOLS_HUB_URL || "https://csptools.cubingsp.com.br/"
 ).replace(/\/?$/, "/");
 
 /** Endereço do hub no idioma do visitante. */
