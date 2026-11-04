@@ -7,8 +7,9 @@
  * 1. Lista as competições oficiais da WCA no estado de São Paulo desde 2007
  *    (sede única com cidade "…, São Paulo"; competições com várias sedes ficam
  *    de fora, porque o resultado não diz em qual sede a pessoa competiu).
- * 2. Em cada rodada, cada competidor ganha  Pt = TC / (P + 1)
- *    (TC = competidores na rodada, P = posição). Soma de todas as rodadas de
+ * 2. Só brasileiros: estrangeiros são tirados das rodadas antes do cálculo.
+ *    Em cada rodada, cada competidor ganha  Pt = TC / (P + 1)
+ *    (TC = brasileiros na rodada, P = posição entre os brasileiros). Soma de todas as rodadas de
  *    todas as competições do ano = pontuação no ranking geral; a soma só das
  *    rodadas de uma modalidade = pontuação na modalidade.
  * 3. Grava:
@@ -74,18 +75,30 @@ async function listSpCompetitions() {
   return [...byId.values()].sort((a, b) => a.start_date.localeCompare(b.start_date) || a.id.localeCompare(b.id));
 }
 
-/** Pontos de cada resultado de uma competição (por rodada). */
+/**
+ * Pontos de cada resultado de uma competição (por rodada), só brasileiros.
+ * Estrangeiros são desconsiderados como se não tivessem competido: o total da
+ * rodada (TC) conta só brasileiros e a posição é recalculada entre eles,
+ * mantendo empates (posição = 1 + brasileiros com posição original melhor).
+ */
 function scoreCompetition(results) {
-  const tc = new Map(); // round_id → total de competidores
-  for (const r of results) tc.set(r.round_id, (tc.get(r.round_id) ?? 0) + 1);
-  return results
-    .filter((r) => r.pos != null && r.wca_id)
-    .map((r) => ({
-      wcaId: r.wca_id,
-      name: r.name,
-      eventId: r.event_id,
-      points: tc.get(r.round_id) / (r.pos + 1),
-    }));
+  const rounds = new Map(); // round_id → resultados de brasileiros
+  for (const r of results) {
+    if (r.country_iso2 !== "BR") continue; // país da pessoa naquela competição
+    if (!rounds.has(r.round_id)) rounds.set(r.round_id, []);
+    rounds.get(r.round_id).push(r);
+  }
+  const out = [];
+  for (const list of rounds.values()) {
+    const tc = list.length;
+    const positions = list.filter((r) => r.pos != null).map((r) => r.pos);
+    for (const r of list) {
+      if (r.pos == null || !r.wca_id) continue;
+      const pos = 1 + positions.filter((p) => p < r.pos).length;
+      out.push({ wcaId: r.wca_id, name: r.name, eventId: r.event_id, points: tc / (pos + 1) });
+    }
+  }
+  return out;
 }
 
 /** Classificação com empates (1, 2, 2, 4…), comparando com 2 casas. */

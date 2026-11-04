@@ -1,5 +1,5 @@
 {
- "version": "459beb7a896f",
+ "version": "1e33f1f9724e",
  "updatedAt": "2026-11-04",
  "firstYear": 2007,
  "currentYear": 2026,
@@ -7,7 +7,7 @@
   {
    "year": 2007,
    "competitions": 1,
-   "competitors": 30
+   "competitors": 29
   },
   {
    "year": 2009,
@@ -17,7 +17,7 @@
   {
    "year": 2010,
    "competitions": 2,
-   "competitors": 92
+   "competitors": 90
   },
   {
    "year": 2011,
@@ -32,7 +32,7 @@
   {
    "year": 2013,
    "competitions": 9,
-   "competitors": 325
+   "competitors": 323
   },
   {
    "year": 2014,
@@ -42,52 +42,52 @@
   {
    "year": 2015,
    "competitions": 11,
-   "competitors": 782
+   "competitors": 613
   },
   {
    "year": 2016,
    "competitions": 9,
-   "competitors": 468
+   "competitors": 466
   },
   {
    "year": 2017,
    "competitions": 14,
-   "competitors": 524
+   "competitors": 522
   },
   {
    "year": 2018,
    "competitions": 16,
-   "competitors": 646
+   "competitors": 626
   },
   {
    "year": 2019,
    "competitions": 18,
-   "competitors": 579
+   "competitors": 572
   },
   {
    "year": 2022,
    "competitions": 12,
-   "competitors": 338
+   "competitors": 332
   },
   {
    "year": 2023,
    "competitions": 18,
-   "competitors": 401
+   "competitors": 391
   },
   {
    "year": 2024,
    "competitions": 30,
-   "competitors": 455
+   "competitors": 446
   },
   {
    "year": 2025,
    "competitions": 26,
-   "competitors": 457
+   "competitors": 451
   },
   {
    "year": 2026,
    "competitions": 25,
-   "competitors": 506
+   "competitors": 501
   }
  ],
  "champions": {
@@ -99,7 +99,7 @@
      {
       "wcaId": "2007GUIM01",
       "name": "Pedro Santos Guimarães",
-      "points": 43,
+      "points": 42.5,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
      }
     ]
@@ -123,7 +123,7 @@
      {
       "wcaId": "2007GUIM01",
       "name": "Pedro Santos Guimarães",
-      "points": 203.27,
+      "points": 200.32,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
      }
     ]
@@ -159,7 +159,7 @@
      {
       "wcaId": "2009BARB01",
       "name": "Gabriel Dechichi Barbar",
-      "points": 872.48,
+      "points": 865.69,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
      }
     ]
@@ -181,10 +181,10 @@
     "partial": false,
     "champions": [
      {
-      "wcaId": "2009ZEMD01",
-      "name": "Feliks Zemdegs",
-      "points": 1006.36,
-      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1694083136_thumb.jpg"
+      "wcaId": "2012ROQU01",
+      "name": "Pedro Roque",
+      "points": 973.13,
+      "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
      }
     ]
    },
@@ -195,7 +195,7 @@
      {
       "wcaId": "2013GOYA01",
       "name": "Henry Hideki Goya",
-      "points": 645.34,
+      "points": 644.13,
       "avatar": null
      }
     ]
@@ -207,7 +207,7 @@
      {
       "wcaId": "2015CECC01",
       "name": "Vicenzo Guerino Cecchini",
-      "points": 936.62,
+      "points": 932.53,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
      }
     ]
@@ -219,7 +219,7 @@
      {
       "wcaId": "2015CECC01",
       "name": "Vicenzo Guerino Cecchini",
-      "points": 1322.03,
+      "points": 1292.93,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
      }
     ]
@@ -231,7 +231,7 @@
      {
       "wcaId": "2015CECC01",
       "name": "Vicenzo Guerino Cecchini",
-      "points": 1098.45,
+      "points": 1092.31,
       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
      }
     ]
@@ -243,7 +243,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 750.16,
+      "points": 730.18,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -255,7 +255,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 807.5,
+      "points": 800.02,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -267,7 +267,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 1131.55,
+      "points": 1097.58,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -279,7 +279,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 1563.49,
+      "points": 1535.49,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -291,7 +291,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 1688.7,
+      "points": 1676.06,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -330,7 +330,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 24.5,
+       "points": 24.33,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -366,7 +366,7 @@
       {
        "wcaId": "2009BARB01",
        "name": "Gabriel Dechichi Barbar",
-       "points": 139.17,
+       "points": 138.42,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
       }
      ]
@@ -390,7 +390,7 @@
       {
        "wcaId": "2013GOYA01",
        "name": "Henry Hideki Goya",
-       "points": 206.52,
+       "points": 217.44,
        "avatar": null
       }
      ]
@@ -402,7 +402,7 @@
       {
        "wcaId": "2015VERA02",
        "name": "Diego Boasso Vera",
-       "points": 119.69,
+       "points": 119.19,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015VERA02/1563194982_thumb.jpg"
       }
      ]
@@ -414,7 +414,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 173.32,
+       "points": 172.57,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -426,7 +426,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 246.65,
+       "points": 238.13,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -438,7 +438,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 192.43,
+       "points": 191.93,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -450,7 +450,7 @@
       {
        "wcaId": "2018GOME29",
        "name": "Frederico Canal Gomes",
-       "points": 94.97,
+       "points": 93.8,
        "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
       }
      ]
@@ -462,7 +462,7 @@
       {
        "wcaId": "2019FUJI09",
        "name": "Tiago Akihiro Fujita",
-       "points": 136.58,
+       "points": 136.85,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2019FUJI09/1696717010_thumb.jpg"
       }
      ]
@@ -474,7 +474,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 199.83,
+       "points": 194.75,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -486,7 +486,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 210.67,
+       "points": 208,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -498,7 +498,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 198,
+       "points": 197.33,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -512,7 +512,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 27,
+       "points": 26.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -536,7 +536,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 63.33,
+       "points": 61.58,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -572,7 +572,7 @@
       {
        "wcaId": "2009BARB01",
        "name": "Gabriel Dechichi Barbar",
-       "points": 384,
+       "points": 380.67,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
       }
      ]
@@ -594,10 +594,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2013GOYA01",
-       "name": "Henry Hideki Goya",
-       "points": 338.1,
-       "avatar": null
+       "wcaId": "2012ROQU01",
+       "name": "Pedro Roque",
+       "points": 359.32,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
       }
      ]
     },
@@ -608,7 +608,7 @@
       {
        "wcaId": "2013GOYA01",
        "name": "Henry Hideki Goya",
-       "points": 329.03,
+       "points": 328.19,
        "avatar": null
       }
      ]
@@ -620,7 +620,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 374.74,
+       "points": 372.87,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -632,7 +632,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 568.8,
+       "points": 557.4,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -644,7 +644,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 410.53,
+       "points": 408.03,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -656,7 +656,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 385.5,
+       "points": 376,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -668,7 +668,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 328.92,
+       "points": 323.17,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -680,7 +680,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 389.5,
+       "points": 378.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -692,7 +692,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 593.5,
+       "points": 581,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -704,7 +704,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 590,
+       "points": 581,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -742,7 +742,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 13.2,
+       "points": 13,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -778,7 +778,7 @@
       {
        "wcaId": "2009BARB01",
        "name": "Gabriel Dechichi Barbar",
-       "points": 90.5,
+       "points": 90,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
       }
      ]
@@ -802,7 +802,7 @@
       {
        "wcaId": "2012ROQU01",
        "name": "Pedro Roque",
-       "points": 177.17,
+       "points": 169,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
       }
      ]
@@ -838,7 +838,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 54.05,
+       "points": 57.37,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -850,7 +850,7 @@
       {
        "wcaId": "2015SILV55",
        "name": "Antonio Gabriel Freitas da Silva",
-       "points": 70.2,
+       "points": 68.7,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015SILV55/1477789139_thumb.jpg"
       }
      ]
@@ -862,7 +862,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 51.17,
+       "points": 50.33,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -874,7 +874,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 80.67,
+       "points": 79.17,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -886,7 +886,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 64.67,
+       "points": 61,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -898,7 +898,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 103.5,
+       "points": 101.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -910,7 +910,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 144,
+       "points": 143,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1008,7 +1008,7 @@
       {
        "wcaId": "2012ROQU01",
        "name": "Pedro Roque",
-       "points": 115.3,
+       "points": 95.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
       }
      ]
@@ -1044,7 +1044,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 27.62,
+       "points": 29.42,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -1056,7 +1056,7 @@
       {
        "wcaId": "2015MATT05",
        "name": "Enzo Mattos",
-       "points": 41,
+       "points": 40,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
       }
      ]
@@ -1068,7 +1068,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 16.83,
+       "points": 16,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1080,7 +1080,7 @@
       {
        "wcaId": "2018GOME29",
        "name": "Frederico Canal Gomes",
-       "points": 19.35,
+       "points": 18.85,
        "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
       }
      ]
@@ -1092,7 +1092,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 58.77,
+       "points": 57.07,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1116,7 +1116,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 76.5,
+       "points": 76,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1200,10 +1200,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2009HAYS01",
-       "name": "Kevin Hays",
-       "points": 42,
-       "avatar": "https://avatars.worldcubeassociation.org/0iak73213j5z3tj0du0mukacuphb"
+       "wcaId": "2012ROQU01",
+       "name": "Pedro Roque",
+       "points": 28,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
       }
      ]
     },
@@ -1236,10 +1236,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2015TELL01",
-       "name": "Pedro Alejandro Condo Tellez",
-       "points": 9,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015TELL01/1700892461_thumb.jpeg"
+       "wcaId": "2014REZE02",
+       "name": "Matheus de Souza Rezende",
+       "points": 6,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014REZE02/1545059738_thumb.jpg"
       }
      ]
     },
@@ -1262,7 +1262,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 9,
+       "points": 8.5,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1286,7 +1286,7 @@
       {
        "wcaId": "2022SASA03",
        "name": "Pedro Paulo Lima Sasaki",
-       "points": 73.33,
+       "points": 72.83,
        "avatar": null
       }
      ]
@@ -1298,7 +1298,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 28.68,
+       "points": 28.48,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1310,7 +1310,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 46.32,
+       "points": 46.82,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1394,10 +1394,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2009ZEMD01",
-       "name": "Feliks Zemdegs",
-       "points": 37.33,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1694083136_thumb.jpg"
+       "wcaId": "2009FRAN05",
+       "name": "Gustavo Maysonnave Franck",
+       "points": 25,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
       }
      ]
     },
@@ -1430,10 +1430,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2015TELL01",
-       "name": "Pedro Alejandro Condo Tellez",
-       "points": 7.5,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015TELL01/1700892461_thumb.jpeg"
+       "wcaId": "2014REZE02",
+       "name": "Matheus de Souza Rezende",
+       "points": 4.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014REZE02/1545059738_thumb.jpg"
       }
      ]
     },
@@ -1456,7 +1456,7 @@
       {
        "wcaId": "2022SASA03",
        "name": "Pedro Paulo Lima Sasaki",
-       "points": 10.67,
+       "points": 10.17,
        "avatar": null
       }
      ]
@@ -1480,7 +1480,7 @@
       {
        "wcaId": "2022SASA03",
        "name": "Pedro Paulo Lima Sasaki",
-       "points": 64,
+       "points": 63.5,
        "avatar": null
       }
      ]
@@ -1492,7 +1492,7 @@
       {
        "wcaId": "2022SASA03",
        "name": "Pedro Paulo Lima Sasaki",
-       "points": 53.5,
+       "points": 53,
        "avatar": null
       }
      ]
@@ -1504,7 +1504,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 42.5,
+       "points": 41.75,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1578,7 +1578,7 @@
       {
        "wcaId": "2010SOUZ01",
        "name": "Walter Pereira Rodrigues de Souza",
-       "points": 49.06,
+       "points": 47.9,
        "avatar": null
       }
      ]
@@ -1600,10 +1600,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2013TALU01",
-       "name": "Kabyanil Talukdar",
-       "points": 63.5,
-       "avatar": null
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 38.03,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
       }
      ]
     },
@@ -1638,7 +1638,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 20.33,
+       "points": 21.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -1674,7 +1674,7 @@
       {
        "wcaId": "2017SEMO02",
        "name": "Marcos Ferreira Semolini",
-       "points": 41.17,
+       "points": 40.83,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
       }
      ]
@@ -1686,7 +1686,7 @@
       {
        "wcaId": "2017SEMO02",
        "name": "Marcos Ferreira Semolini",
-       "points": 24.5,
+       "points": 24,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
       }
      ]
@@ -1698,7 +1698,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 25.67,
+       "points": 25.33,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1748,7 +1748,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 17.67,
+       "points": 17.17,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -1806,10 +1806,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2008ANDE02",
-       "name": "Oscar Roth Andersen",
-       "points": 46,
-       "avatar": null
+       "wcaId": "2013OLIV01",
+       "name": "Fabiano Pinheiro de Oliveira",
+       "points": 41,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013OLIV01/1441150551_thumb.jpg"
       }
      ]
     },
@@ -1844,7 +1844,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 29.31,
+       "points": 29.28,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1856,7 +1856,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 47.83,
+       "points": 47.17,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1868,14 +1868,8 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 20.83,
+       "points": 19.33,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
-      },
-      {
-       "wcaId": "2015CECC01",
-       "name": "Vicenzo Guerino Cecchini",
-       "points": 20.83,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
     },
@@ -1898,7 +1892,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 50,
+       "points": 47.67,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1910,7 +1904,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 87.5,
+       "points": 85.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2020,7 +2014,7 @@
       {
        "wcaId": "2012CAMP03",
        "name": "Gabriel Pereira Campanha",
-       "points": 65,
+       "points": 55,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
       }
      ]
@@ -2056,7 +2050,7 @@
       {
        "wcaId": "2012CAMP03",
        "name": "Gabriel Pereira Campanha",
-       "points": 16.5,
+       "points": 16,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012CAMP03/1441150547_thumb.jpg"
       }
      ]
@@ -2094,7 +2088,7 @@
       {
        "wcaId": "2007GUIM01",
        "name": "Pedro Santos Guimarães",
-       "points": 22.5,
+       "points": 22.25,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
@@ -2130,7 +2124,7 @@
       {
        "wcaId": "2009BARB01",
        "name": "Gabriel Dechichi Barbar",
-       "points": 151,
+       "points": 149,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
       }
      ]
@@ -2154,7 +2148,7 @@
       {
        "wcaId": "2012ROQU01",
        "name": "Pedro Roque",
-       "points": 147.84,
+       "points": 166.67,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012ROQU01/1507314630_thumb.PNG"
       }
      ]
@@ -2178,7 +2172,7 @@
       {
        "wcaId": "2015CARV06",
        "name": "Iuri Grangeiro Carvalho",
-       "points": 96,
+       "points": 95.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
       }
      ]
@@ -2190,7 +2184,7 @@
       {
        "wcaId": "2015CARV06",
        "name": "Iuri Grangeiro Carvalho",
-       "points": 128.33,
+       "points": 120,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
       }
      ]
@@ -2202,7 +2196,7 @@
       {
        "wcaId": "2015CARV06",
        "name": "Iuri Grangeiro Carvalho",
-       "points": 157.5,
+       "points": 157,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CARV06/1513131565_thumb.jpg"
       }
      ]
@@ -2214,7 +2208,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 75.33,
+       "points": 73.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2226,7 +2220,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 60.67,
+       "points": 59.33,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2238,7 +2232,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 74.5,
+       "points": 72,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2250,7 +2244,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 78.5,
+       "points": 77.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2262,7 +2256,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 158.5,
+       "points": 157.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2324,7 +2318,7 @@
       {
        "wcaId": "2010BUEN01",
        "name": "Felipe da Cruz Bueno",
-       "points": 57.83,
+       "points": 57.5,
        "avatar": null
       }
      ]
@@ -2346,10 +2340,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2010CANT02",
-       "name": "Antoine Cantin",
-       "points": 89.97,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2010CANT02/1522197280_thumb.JPG"
+       "wcaId": "2012MAIA01",
+       "name": "João Guilherme Barejan Maiale",
+       "points": 91.67,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MAIA01/1532450735_thumb.jpeg"
       }
      ]
     },
@@ -2360,7 +2354,7 @@
       {
        "wcaId": "2011SOBR01",
        "name": "Alrimar Dias Rocha Sobrinho",
-       "points": 68.69,
+       "points": 68.19,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011SOBR01/1455760552_thumb.jpg"
       }
      ]
@@ -2372,7 +2366,7 @@
       {
        "wcaId": "2012MAIA01",
        "name": "João Guilherme Barejan Maiale",
-       "points": 144.7,
+       "points": 143.37,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MAIA01/1532450735_thumb.jpeg"
       }
      ]
@@ -2384,7 +2378,7 @@
       {
        "wcaId": "2016CARD06",
        "name": "Felipe Cardim",
-       "points": 168.7,
+       "points": 163.06,
        "avatar": "https://avatars.worldcubeassociation.org/knaqe95veijt0tv6c3pjczej3zko"
       }
      ]
@@ -2396,7 +2390,7 @@
       {
        "wcaId": "2017SEMO02",
        "name": "Marcos Ferreira Semolini",
-       "points": 122.97,
+       "points": 121.1,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
       }
      ]
@@ -2408,7 +2402,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 44.18,
+       "points": 42.6,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2420,7 +2414,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 94.8,
+       "points": 92.55,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2432,7 +2426,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 84.9,
+       "points": 82.33,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2444,7 +2438,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 155.67,
+       "points": 154.17,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2456,7 +2450,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 127.5,
+       "points": 126.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2482,7 +2476,7 @@
       {
        "wcaId": "2009FRAN05",
        "name": "Gustavo Maysonnave Franck",
-       "points": 7,
+       "points": 6.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009FRAN05/1441150540_thumb.jpg"
       }
      ]
@@ -2592,7 +2586,7 @@
       {
        "wcaId": "2009ALLE01",
        "name": "Leandro Vasconcellos Alleoni",
-       "points": 43.66,
+       "points": 44.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009ALLE01/1517858493_thumb.jpg"
       }
      ]
@@ -2628,7 +2622,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 69.5,
+       "points": 66.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -2640,7 +2634,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 112.33,
+       "points": 111.33,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -2652,7 +2646,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 22.5,
+       "points": 21.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -2676,7 +2670,7 @@
       {
        "wcaId": "2018GOME29",
        "name": "Frederico Canal Gomes",
-       "points": 53.17,
+       "points": 52.17,
        "avatar": "https://avatars.worldcubeassociation.org/nsilxa5rjbyncqnt8y7qfcc8zbel"
       }
      ]
@@ -2796,10 +2790,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2011FRES01",
-       "name": "Linus Frész",
-       "points": 15,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011FRES01/1530273532_thumb.jpg"
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 2.75,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
       }
      ]
     },
@@ -2831,12 +2825,6 @@
      "year": 2018,
      "partial": false,
      "champions": [
-      {
-       "wcaId": "2013HUAN29",
-       "name": "Gianfranco Huanqui",
-       "points": 2,
-       "avatar": "https://avatars.worldcubeassociation.org/5ie4xrrjhdpumo2e2xzbin3c0933"
-      },
       {
        "wcaId": "2012SILV22",
        "name": "Israel Fraga da Silva",
@@ -2888,7 +2876,7 @@
       {
        "wcaId": "2017SEMO02",
        "name": "Marcos Ferreira Semolini",
-       "points": 17.13,
+       "points": 17.14,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
       }
      ]
@@ -3012,7 +3000,7 @@
       {
        "wcaId": "2009BARB01",
        "name": "Gabriel Dechichi Barbar",
-       "points": 34,
+       "points": 15.25,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009BARB01/1441150540_thumb.jpg"
       }
      ]
@@ -3048,7 +3036,7 @@
       {
        "wcaId": "2015MATT05",
        "name": "Enzo Mattos",
-       "points": 6.67,
+       "points": 6.33,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015MATT05/1714771674_thumb.jpeg"
       }
      ]
@@ -3204,10 +3192,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2009OHRN01",
-       "name": "Laura Ohrndorf",
-       "points": 33.7,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2009OHRN01/1501490937_thumb.png"
+       "wcaId": "2007GUIM01",
+       "name": "Pedro Santos Guimarães",
+       "points": 19.5,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2007GUIM01/1441150538_thumb.jpg"
       }
      ]
     },
@@ -3240,10 +3228,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2015GODO01",
-       "name": "Diego Iglesias Godoy",
-       "points": 12,
-       "avatar": null
+       "wcaId": "2017BREN03",
+       "name": "David Breno",
+       "points": 9,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017BREN03/1518821855_thumb.jpg"
       }
      ]
     },
@@ -3266,7 +3254,7 @@
       {
        "wcaId": "2017CALD04",
        "name": "Roberto Caldas",
-       "points": 26.5,
+       "points": 25.5,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017CALD04/1677286342_thumb.jpg"
       }
      ]
@@ -3290,7 +3278,7 @@
       {
        "wcaId": "2022FERN29",
        "name": "Pedro Lima Fernandes",
-       "points": 178.17,
+       "points": 173.17,
        "avatar": "https://avatars.worldcubeassociation.org/4oeetinxbye0jbiu5l7djowha3bu"
       }
      ]
@@ -3302,7 +3290,7 @@
       {
        "wcaId": "2022FERN29",
        "name": "Pedro Lima Fernandes",
-       "points": 141.5,
+       "points": 136.17,
        "avatar": "https://avatars.worldcubeassociation.org/4oeetinxbye0jbiu5l7djowha3bu"
       }
      ]
@@ -3314,7 +3302,7 @@
       {
        "wcaId": "2024SOUS10",
        "name": "Luiz Fernando Santos de Sousa",
-       "points": 135.17,
+       "points": 134.58,
        "avatar": "https://avatars.worldcubeassociation.org/lz2ekpf7e30m2vbmkge72nmsy70l"
       }
      ]
@@ -3398,10 +3386,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2013COST02",
-       "name": "João Pedro Batista Ribeiro Costa",
-       "points": 63,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013COST02/1494015725_thumb.jpg"
+       "wcaId": "2012MENE01",
+       "name": "Diego Meneghetti",
+       "points": 40,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2012MENE01/1537213457_thumb.jpg"
       }
      ]
     },
@@ -3436,7 +3424,7 @@
       {
        "wcaId": "2015CAMP17",
        "name": "Alexandre Henrique Afonso Campos",
-       "points": 16.5,
+       "points": 13,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CAMP17/1529076610_thumb.jpeg"
       }
      ]
@@ -3484,7 +3472,7 @@
       {
        "wcaId": "2015ONOF01",
        "name": "Anuar Miguel Abib Onofre",
-       "points": 20,
+       "points": 19.5,
        "avatar": "https://avatars.worldcubeassociation.org/kw62dg56fnw45k1ddo6a8liumh15"
       }
      ]
@@ -3612,10 +3600,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2012ARTH01",
-       "name": "Noa Arthurs",
-       "points": 10,
-       "avatar": null
+       "wcaId": "2011LIMA01",
+       "name": "Allyson Dias de Lima",
+       "points": 4,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2011LIMA01/1536017051_thumb.jpeg"
       }
      ]
     },
@@ -3704,7 +3692,7 @@
       {
        "wcaId": "2017SEMO02",
        "name": "Marcos Ferreira Semolini",
-       "points": 9.92,
+       "points": 9.58,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
       }
      ]
@@ -3764,10 +3752,10 @@
      "partial": false,
      "champions": [
       {
-       "wcaId": "2014LAFO01",
-       "name": "Anthony Lafourcade",
-       "points": 56.5,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2014LAFO01/1663517766_thumb.jpg"
+       "wcaId": "2013COST02",
+       "name": "João Pedro Batista Ribeiro Costa",
+       "points": 37.43,
+       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2013COST02/1494015725_thumb.jpg"
       }
      ]
     },
@@ -3790,7 +3778,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 87.75,
+       "points": 87.42,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -3802,7 +3790,7 @@
       {
        "wcaId": "2015CECC01",
        "name": "Vicenzo Guerino Cecchini",
-       "points": 107.97,
+       "points": 102.4,
        "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2015CECC01/1669038655_thumb.jpg"
       }
      ]
@@ -3826,7 +3814,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 40.33,
+       "points": 39.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -3850,7 +3838,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 55,
+       "points": 53.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -3862,7 +3850,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 117.17,
+       "points": 114.83,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
