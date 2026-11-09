@@ -1,6 +1,6 @@
 {
- "version": "1e33f1f9724e",
- "updatedAt": "2026-11-04",
+ "version": "abb8e9da3326",
+ "updatedAt": "2026-11-09",
  "firstYear": 2007,
  "currentYear": 2026,
  "years": [
@@ -86,8 +86,8 @@
   },
   {
    "year": 2026,
-   "competitions": 25,
-   "competitors": 501
+   "competitions": 26,
+   "competitors": 521
   }
  ],
  "champions": {
@@ -291,7 +291,7 @@
      {
       "wcaId": "2016SATO01",
       "name": "Caio Hideaki Sato",
-      "points": 1676.06,
+      "points": 1782.97,
       "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
      }
     ]
@@ -498,7 +498,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 197.33,
+       "points": 211.83,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -704,7 +704,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 581,
+       "points": 610,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -910,7 +910,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 143,
+       "points": 154.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1116,7 +1116,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 76,
+       "points": 83,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1310,7 +1310,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 46.82,
+       "points": 51.82,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -1504,7 +1504,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 41.75,
+       "points": 46.25,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1710,7 +1710,7 @@
       {
        "wcaId": "2014YUNO01",
        "name": "Lucas Ichiro Yunomae",
-       "points": 30.02,
+       "points": 33.02,
        "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
@@ -1916,7 +1916,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 113,
+       "points": 119.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2256,7 +2256,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 157.5,
+       "points": 165,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -2450,7 +2450,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 126.5,
+       "points": 133.5,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
@@ -3106,10 +3106,10 @@
      "partial": true,
      "champions": [
       {
-       "wcaId": "2017SEMO02",
-       "name": "Marcos Ferreira Semolini",
-       "points": 9,
-       "avatar": "https://avatars.worldcubeassociation.org/uploads/user/avatar/2017SEMO02/1722118020_thumb.jpeg"
+       "wcaId": "2014YUNO01",
+       "name": "Lucas Ichiro Yunomae",
+       "points": 10.11,
+       "avatar": "https://avatars.worldcubeassociation.org/pxlsjrrnaafqs8jdw2i2mswi3h5m"
       }
      ]
     }
@@ -3862,7 +3862,7 @@
       {
        "wcaId": "2016SATO01",
        "name": "Caio Hideaki Sato",
-       "points": 87,
+       "points": 93,
        "avatar": "https://avatars.worldcubeassociation.org/0me6w17p851rmyof96h0ibxg09g4"
       }
      ]
