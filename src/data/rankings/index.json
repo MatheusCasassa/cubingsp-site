@@ -1,6 +1,6 @@
 {
- "version": "abb8e9da3326",
- "updatedAt": "2026-11-09",
+ "version": "06516b3dc745",
+ "updatedAt": "2026-11-16",
  "firstYear": 2007,
  "currentYear": 2026,
  "years": [
@@ -86,8 +86,8 @@
   },
   {
    "year": 2026,
-   "competitions": 26,
-   "competitors": 521
+   "competitions": 27,
+   "competitors": 525
   }
  ],
  "champions": {
@@ -3302,7 +3302,7 @@
       {
        "wcaId": "2024SOUS10",
        "name": "Luiz Fernando Santos de Sousa",
-       "points": 134.58,
+       "points": 138.58,
        "avatar": "https://avatars.worldcubeassociation.org/lz2ekpf7e30m2vbmkge72nmsy70l"
       }
      ]
